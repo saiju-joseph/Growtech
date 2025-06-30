@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>ProjectScript</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+               <a class="navbar-brand" href="index.html">
+                  <div class="log">
+                     <img src="images/logo.png" alt="logo" />
+                  </div>
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link active" href="features.html"
+                           >Features</a
+                        >
+                     </li>
+
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Solutions
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a class="dropdown-item" href="#">Buildings</a>
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Roads & Highways</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#">Bridges</a>
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#">Pipelines</a>
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >TRansmission LInes</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#">Oil & Gas</a>
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Power Generation</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#">Solar</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Users
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li><a class="dropdown-item" href="#">CEOs</a></li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Project Managers</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Innovation Leaders</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#">Contractors</a>
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#"
+                                 >Project Owners</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="benefits.html">Benefits</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="why-projectscript.html"
+                           >Why ProjectScript</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <button class="btn btn-gradient" type="submit">
+                        Start Free Trial
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- nav end -->
+      <section class="hero">
+         <!-- Hero Background Image -->
+         <div class="hero-background">
+            <!-- <img
+               src="images/hero-construction-site-digital.jpg"
+               alt="Modern construction site with digital technology overlay"
+               style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: 1;
+               "
+            /> -->
+            <!-- Alternative images for different sliders -->
+            <!-- <img
+               src="images/hero-ceo-boardroom.jpg"
+               alt="CEO in modern boardroom with construction project displays"
+               id="ceo-bg"
+               style="
+                  display: none;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: 1;
+               "
+            />
+            <img
+               src="images/hero-project-manager-site.jpg"
+               alt="Project manager using tablet on construction site"
+               id="pm-bg"
+               style="
+                  display: none;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: 1;
+               "
+            />
+            <img
+               src="images/hero-innovation-ai-tech.jpg"
+               alt="Futuristic construction with AI and data visualization"
+               id="innovation-bg"
+               style="
+                  display: none;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: 1;
+               "
+            /> -->
+         </div>
+
+         <div class="container">
+            <div class="hero-content">
+               <div class="slider-container">
+                  <div class="slider-tabs">
+                     <button
+                        class="slider-tab active"
+                        onclick="showSlider('ceo')"
+                     >
+                        CEOs
+                     </button>
+                     <button class="slider-tab" onclick="showSlider('pm')">
+                        Project Managers
+                     </button>
+                     <button
+                        class="slider-tab"
+                        onclick="showSlider('innovation')"
+                     >
+                        Innovation Leaders
+                     </button>
+                  </div>
+
+                  <!-- CEO Slider -->
+                  <div id="ceo-slider" class="slider-content active">
+                     <h1 class="slider-headline" id="ceo-headline">
+                        CEOs: Achieve 289% ROI with Construction Automation
+                     </h1>
+                     <p class="slider-subtext">
+                        Join construction leaders who've eliminated management
+                        overhead while boosting productivity.<br />
+                        Proven results across companies from 50 to 5,000+
+                        workers.
+                     </p>
+
+                     <div class="stats-grid">
+                        <div class="stat-card">
+                           <div class="stat-number">289%</div>
+                           <div class="stat-label">Second Year ROI</div>
+                           <!-- ROI Chart Icon -->
+                           <div class="stat-visual">
+                              <img
+                                 src="images/roi-chart-289.png"
+                                 alt="289% ROI visualization chart"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                        <div class="stat-card">
+                           <div class="stat-number">$11.7M</div>
+                           <div class="stat-label">
+                              Year 2 Savings (Per 1000 workers)
+                           </div>
+                           <!-- Savings Breakdown Visual -->
+                           <div class="stat-visual">
+                              <img
+                                 src="images/savings-breakdown-infographic.png"
+                                 alt="$11.67M savings breakdown"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                        <div class="stat-card">
+                           <div class="stat-number">50%</div>
+                           <div class="stat-label">Process Automation</div>
+                           <!-- Automation Process Visual -->
+                           <div class="stat-visual">
+                              <img
+                                 src="images/automation-process-icon.png"
+                                 alt="50% automation visualization"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                        <div class="stat-card">
+                           <div class="stat-number">48hrs</div>
+                           <div class="stat-label">Implementation Time</div>
+                           <!-- Timeline Visual -->
+                           <div class="stat-visual">
+                              <img
+                                 src="images/48hour-timeline.png"
+                                 alt="48-hour implementation timeline"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Project Manager Slider -->
+                  <div id="pm-slider" class="slider-content">
+                     <h1 class="slider-headline">
+                        Project Managers: Finally - Safety, Quality, Schedule &
+                        Cost Integrated in Real-Time
+                     </h1>
+                     <p class="slider-subtext">
+                        Stop juggling 4 different systems. See how safety
+                        incidents impact your schedule instantly. Quality
+                        control at activity level prevents rework.
+                     </p>
+
+                     <!-- Integration Dashboard Preview -->
+                     <div class="dashboard-preview" style="margin: 2rem 0">
+                        <img
+                           src="images/projectscript-dashboard-integration.png"
+                           alt="ProjectScript dashboard showing real-time integration of safety, quality, schedule, and cost"
+                           style="
+                              width: 100%;
+                              max-width: 600px;
+                              border-radius: 15px;
+                              box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                           "
+                        />
+                     </div>
+
+                     <div class="stats-grid">
+                        <div class="stat-card">
+                           <div class="stat-number">4-in-1</div>
+                           <div class="stat-label">Integrated Platform</div>
+                           <div class="stat-visual">
+                              <img
+                                 src="images/4-in-1-integration-icon.png"
+                                 alt="4-in-1 platform integration"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                        <div class="stat-card">
+                           <div class="stat-number">Real-Time</div>
+                           <div class="stat-label">
+                              Cost-Schedule Integration
+                           </div>
+                           <div class="stat-visual">
+                              <img
+                                 src="images/realtime-integration-icon.png"
+                                 alt="Real-time integration visualization"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                        <div class="stat-card">
+                           <div class="stat-number">90%</div>
+                           <div class="stat-label">Less Planning Effort</div>
+                           <div class="stat-visual">
+                              <img
+                                 src="images/buildingblocks-demo.png"
+                                 alt="BuildingBlocks technology demonstration"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                        <div class="stat-card">
+                           <div class="stat-number">Superior</div>
+                           <div class="stat-label">to Primavera (Proven)</div>
+                           <div class="stat-visual">
+                              <img
+                                 src="images/vs-primavera-comparison.png"
+                                 alt="ProjectScript vs Primavera comparison"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Innovation Leader Slider -->
+                  <div id="innovation-slider" class="slider-content">
+                     <h1 class="slider-headline">
+                        Innovation Leaders: Process 100x More Data Than Any
+                        Construction Software
+                     </h1>
+                     <p class="slider-subtext">
+                        Daily AI intelligence from comprehensive data
+                        processing. Built-for-AI architecture with 9 patents
+                        pending. Lead construction's digital transformation.
+                     </p>
+
+                     <!-- AI Data Processing Visualization -->
+                     <div class="ai-visualization" style="margin: 2rem 0">
+                        <img
+                           src="images/ai-data-processing-visualization.png"
+                           alt="AI data processing 100x more than competitors"
+                           style="
+                              width: 100%;
+                              max-width: 600px;
+                              border-radius: 15px;
+                              box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                           "
+                        />
+                     </div>
+
+                     <div class="stats-grid">
+                        <div class="stat-card">
+                           <div class="stat-number">100x</div>
+                           <div class="stat-label">More Data Processing</div>
+                           <div class="stat-visual">
+                              <img
+                                 src="images/100x-data-comparison.png"
+                                 alt="100x data processing comparison"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                        <div class="stat-card">
+                           <div class="stat-number">9</div>
+                           <div class="stat-label">Patents Pending</div>
+                           <div class="stat-visual">
+                              <img
+                                 src="images/patent-portfolio-icon.png"
+                                 alt="9 patents pending visualization"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                        <div class="stat-card">
+                           <div class="stat-number">Daily</div>
+                           <div class="stat-label">AI Data Digestion</div>
+                           <div class="stat-visual">
+                              <img
+                                 src="images/daily-ai-processing.png"
+                                 alt="Daily AI data digestion process"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                        <div class="stat-card">
+                           <div class="stat-number">38%</div>
+                           <div class="stat-label">AI Profitability Boost*</div>
+                           <div class="stat-visual">
+                              <img
+                                 src="images/ai-profitability-chart.png"
+                                 alt="38% AI profitability boost chart"
+                                 style="
+                                    width: 60px;
+                                    height: 40px;
+                                    margin-top: 0.5rem;
+                                    opacity: 0.7;
+                                 "
+                              />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div style="text-align: center; margin-top: 2rem">
+                     <a href="#trial" class="cta-primary">Get 3 Months FREE</a>
+                     <a href="#demo" class="cta-secondary">Schedule Demo</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Features Section -->
+      <section class="features" id="features">
+         <div class="container">
+            <h2 class="section-title">Revolutionary Construction Technology</h2>
+            <div class="features-grid">
+               <div class="feature-card">
+                  <div class="feature-icon">🔄</div>
+                  <!-- Integration Flowchart -->
+                  <div class="feature-image">
+                     <img
+                        src="images/real-time-integration-flowchart.png"
+                        alt="Real-time safety-quality-schedule-cost integration flowchart"
+                        style="
+                           width: 100%;
+                           height: 200px;
+                           object-fit: cover;
+                           border-radius: 10px;
+                           margin-bottom: 1rem;
+                        "
+                     />
+                  </div>
+                  <h3>Real-Time Integration</h3>
+                  <p>
+                     Solve the industry's biggest challenge: seamless safety,
+                     quality, schedule, and cost integration in real-time.<br />
+                     No more separate systems.
+                  </p>
+               </div>
+               <div class="feature-card">
+                  <div class="feature-icon">⚡</div>
+                  <!-- Scheduling Comparison -->
+                  <div class="feature-image">
+                     <img
+                        src="images/non-deterministic-scheduling-comparison.png"
+                        alt="Non-deterministic vs deterministic scheduling comparison"
+                        style="
+                           width: 100%;
+                           height: 200px;
+                           object-fit: cover;
+                           border-radius: 10px;
+                           margin-bottom: 1rem;
+                        "
+                     />
+                  </div>
+                  <h3>Non-Deterministic Scheduling</h3>
+                  <p>
+                     Only adaptive scheduling system that handles construction's
+                     unpredictable changes. Unlike rigid CPM systems,
+                     dynamically adjusts to reality.
+                  </p>
+               </div>
+               <div class="feature-card">
+                  <div class="feature-icon">🤖</div>
+                  <!-- Feature Screenshot -->
+                  <div class="feature-image">
+                     <img
+                        src="images/automation-dashboard-screenshot.png"
+                        alt="50% process automation dashboard"
+                        style="
+                           width: 100%;
+                           height: 200px;
+                           object-fit: cover;
+                           border-radius: 10px;
+                           margin-bottom: 1rem;
+                        "
+                     />
+                  </div>
+                  <h3>50% Process Automation</h3>
+                  <p>
+                     Industry's only construction software that automates 50% of
+                     management processes. Patent-pending algorithms
+                     construction eliminate manual work and human errors.
+                  </p>
+               </div>
+               <div class="feature-card">
+                  <div class="feature-icon">🧩</div>
+                  <!-- BuildingBlocks Demo -->
+                  <div class="feature-image">
+                     <img
+                        src="images/buildingblocks-interface-demo.png"
+                        alt="BuildingBlocks drag-and-drop interface"
+                        style="
+                           width: 100%;
+                           height: 200px;
+                           object-fit: cover;
+                           border-radius: 10px;
+                           margin-bottom: 1rem;
+                        "
+                     />
+                  </div>
+                  <h3>Patent-Pending BuildingBlocks</h3>
+                  <p>
+                     Create projects in 10% of the time using revolutionary
+                     BuildingBlocks. Complex projects built with clicks instead
+                     of weeks of planning and budgeting effort.
+                  </p>
+               </div>
+
+               <div class="feature-card">
+                  <div class="feature-icon">🎯</div>
+                  <!-- AI Resource Allocation -->
+                  <div class="feature-image">
+                     <img
+                        src="images/ai-resource-allocation-interface.png"
+                        alt="AI-driven resource allocation interface"
+                        style="
+                           width: 100%;
+                           height: 200px;
+                           object-fit: cover;
+                           border-radius: 10px;
+                           margin-bottom: 1rem;
+                        "
+                     />
+                  </div>
+                  <h3>AI-Driven Resource Allocation</h3>
+                  <p>
+                     Automated daily resource allocation eliminates bias and
+                     maximizes productivity. Perfect worker-to-task matching
+                     based on skills and availability.
+                  </p>
+               </div>
+               <div class="feature-card">
+                  <div class="feature-icon">📊</div>
+                  <!-- Data Processing Visualization -->
+                  <div class="feature-image">
+                     <img
+                        src="images/100x-data-processing-chart.png"
+                        alt="100x data processing capability chart"
+                        style="
+                           width: 100%;
+                           height: 200px;
+                           object-fit: cover;
+                           border-radius: 10px;
+                           margin-bottom: 1rem;
+                        "
+                     />
+                  </div>
+                  <h3>100x Data Processing</h3>
+                  <p>
+                     Process 100x more data than any construction software.
+                     Daily AI intelligence from comprehensive input, processing,
+                     and output capabilities.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="testimonials" id="testimonials">
+         <div class="container">
+            <h2 class="section-title">Industry Leaders Choose ProjectScript</h2>
+
+            <div class="testimonial-hero">
+               <!-- Andrew Jurkevics Photo -->
+               <div class="testimonial-photo" style="margin-bottom: 2rem">
+                  <img
+                     src="images/andrew.jpeg"
+                     alt="Andrew Jurkevics, Project Leader - Legacy Primavera P6 Development Team"
+                     style="
+                        width: 120px;
+                        height: 120px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        margin: 0 auto;
+                        display: block;
+                        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+                     "
+                  />
+               </div>
+               <div class="testimonial-text">
+                  "ProjectScript is an easy-to-use, collaborative, real-time,
+                  robust, and affordable project management platform. I have
+                  high confidence in the functional design and in the team that
+                  Growtech has assembled. The success of our Eagle Ray product,
+                  which eventually became Primavera P6, has exceeded my
+                  expectations. I will not be surprised if the success of
+                  ProjectScript repeats that experience."
+               </div>
+               <div class="testimonial-author">
+                  <a
+                     href="https://www.linkedin.com/in/andrew-jurkevics-a22bb91b/"
+                     target="_blank"
+                  >
+                     Andrew Jurkevics</a
+                  >
+               </div>
+               <div class="testimonial-role">
+                  Project Leader - Legacy Primavera P6 Development Team
+               </div>
+               <!-- Primavera P6 Logo -->
+               <div class="testimonial-credential" style="margin-top: 1rem">
+                  <img
+                     src="images/primavera-logo.png"
+                     alt="Primavera P6 Logo"
+                     style="height: 30px; opacity: 0.7"
+                  />
+               </div>
+            </div>
+
+            <div class="testimonials-grid">
+               <div class="testimonial-card">
+                  <!-- Wood Group Logo -->
+                  <div
+                     class="company-logo"
+                     style="text-align: center; margin-bottom: 1rem"
+                  >
+                     <img
+                        src="images/wood-group-logo.png"
+                        alt="Wood Group Logo"
+                        style="height: 40px; opacity: 0.8"
+                     />
+                  </div>
+                  <p style="font-style: italic; margin-bottom: 1rem">
+                     "I am using Primavera for scheduling for the past twenty
+                     plus years. ProjectScript is superior to Primavera in
+                     several ways. Project schedules can be created using
+                     BuildingBlock technology in a fraction of the time."
+                  </p>
+                  <div style="font-weight: bold">
+                     Project Controls Manager, Houston-based Energy Company
+                  </div>
+                  <div style="color: #718096; font-size: 0.9rem">
+                     20+ years Primavera experience
+                  </div>
+               </div>
+
+               <div class="testimonial-card">
+                  <!-- KIPIC Logo -->
+                  <div
+                     class="company-logo"
+                     style="text-align: center; margin-bottom: 1rem"
+                  >
+                     <img
+                        src="images/kipic-logo.png"
+                        alt="KIPIC - Kuwait Integrated Petroleum Industries Company Logo"
+                        style="height: 40px; opacity: 0.8"
+                     />
+                  </div>
+                  <p style="font-style: italic; margin-bottom: 1rem">
+                     "ProjectScript is EXCELLENT! I find it very user-friendly!
+                     It integrates all major project performance factors -
+                     health & safety, quality, cost, schedule, and data
+                     analytics."
+                  </p>
+                  <div style="font-weight: bold">
+                     Former C-Level Executive, Middle - East, Oil Company
+                  </div>
+               </div>
+
+               <div class="testimonial-card">
+                  <!-- Construction Industry Icon -->
+                  <div
+                     class="company-logo"
+                     style="text-align: center; margin-bottom: 1rem"
+                  >
+                     <img
+                        src="images/middle-east-contractor-icon.jpeg"
+                        alt="Middle East Construction Contractor"
+                        style="height: 40px; opacity: 0.8"
+                     />
+                  </div>
+                  <p style="font-style: italic; margin-bottom: 1rem">
+                     "Quality Control is an integral part of Activity in
+                     ProjectScript which helps control quality at the activity
+                     level. This significantly reduces rework compared to
+                     separate point solutions."
+                  </p>
+                  <div style="font-weight: bold">Quality Control Director</div>
+                  <div style="color: #718096; font-size: 0.9rem">
+                     Middle East Contractor
+                  </div>
+               </div>
+            </div>
+
+            <!-- Comparison Chart -->
+            <div class="comparison-section" style="margin-top: 4rem">
+               <h3
+                  style="
+                     text-align: center;
+                     font-size: 2rem;
+                     margin-bottom: 2rem;
+                     color: #2d3748;
+                  "
+               >
+                  ProjectScript vs. Competition
+               </h3>
+               <div class="comparison-chart">
+                  <img
+                     src="images/projectscript-vs-competitors-chart.png"
+                     alt="Detailed comparison chart: ProjectScript vs Primavera vs Procore vs Microsoft Project"
+                     style="
+                        width: 100%;
+                        max-width: 900px;
+                        margin: 0 auto;
+                        display: block;
+                        border-radius: 15px;
+                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+                     "
+                  />
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Benefits Section -->
+      <section class="benefits" id="benefits">
+         <div class="container">
+            <h2 class="section-title" style="color: white">
+               Massive ROI & Proven Results
+            </h2>
+
+            <!-- ROI Breakdown Infographic -->
+            <div
+               class="roi-showcase"
+               style="text-align: center; margin-bottom: 3rem"
+            >
+               <img
+                  src="images/roi-breakdown-infographic-11-67m.png"
+                  alt="$11.7M ROI breakdown: $6.9M labor savings + $4.8M overhead reduction"
+                  style="
+                     width: 100%;
+                     max-width: 800px;
+                     border-radius: 20px;
+                     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+                  "
+               />
+            </div>
+
+            <div class="benefits-grid">
+               <div class="benefit-card">
+                  <div class="benefit-icon">💰</div>
+                  <!-- Labor Savings Visual -->
+                  <div class="benefit-visual" style="margin-bottom: 1rem">
+                     <img
+                        src="images/labor-savings-chart-6-9m.png"
+                        alt="$6.9M labor cost savings visualization"
+                        style="
+                           width: 100%;
+                           height: 120px;
+                           object-fit: contain;
+                           opacity: 0.8;
+                        "
+                     />
+                  </div>
+                  <div class="benefit-title">$6.9M Labor Savings</div>
+                  <p>
+                     Achieve massive labor cost savings through 50% process
+                     automation and enhanced productivity per 1,000-workers .
+                  </p>
+               </div>
+               <div class="benefit-card">
+                  <div class="benefit-icon">🔧</div>
+                  <!-- Overhead Reduction Visual -->
+                  <div class="benefit-visual" style="margin-bottom: 1rem">
+                     <img
+                        src="images/overhead-reduction-chart-4-77m.png"
+                        alt="$4.77M overhead reduction breakdown"
+                        style="
+                           width: 100%;
+                           height: 120px;
+                           object-fit: contain;
+                           opacity: 0.8;
+                        "
+                     />
+                  </div>
+                  <div class="benefit-title">$4.8M Overhead Reduction</div>
+                  <p>Through intelligent automation and integration.</p>
+               </div>
+               <div class="benefit-card">
+                  <div class="benefit-icon">⚡</div>
+                  <!-- Migration Success Chart -->
+                  <div class="benefit-visual" style="margin-bottom: 1rem">
+                     <img
+                        src="images/migration-success-primavera-procore.png"
+                        alt="Migration success from Primavera/Procore to ProjectScript"
+                        style="
+                           width: 100%;
+                           height: 120px;
+                           object-fit: contain;
+                           opacity: 0.8;
+                        "
+                     />
+                  </div>
+                  <div class="benefit-title">
+                     From Primavera/Procore to ProjectScript
+                  </div>
+                  <p>
+                     Companies switching from legacy systems see immediate
+                     ROI:<br />
+                     232% Year 1, 289% Year 2. <br />Proven results.
+                  </p>
+               </div>
+               <div class="benefit-card">
+                  <div class="benefit-icon">🛡️</div>
+                  <!-- ROI Guarantee Badge -->
+                  <div class="benefit-visual" style="margin-bottom: 1rem">
+                     <img
+                        src="images/100-percent-roi-guarantee-badge.png"
+                        alt="100% ROI guarantee badge"
+                        style="
+                           width: 100%;
+                           height: 120px;
+                           object-fit: contain;
+                           opacity: 0.8;
+                        "
+                     />
+                  </div>
+                  <div class="benefit-title">100% ROI Guarantee</div>
+                  <p>
+                     We're so confident in results, customers get the product
+                     for free through substantial operational savings.
+                  </p>
+               </div>
+               <div class="benefit-card">
+                  <div class="benefit-icon">📈</div>
+                  <!-- Scalability Diagram -->
+                  <div class="benefit-visual" style="margin-bottom: 1rem">
+                     <img
+                        src="images/scalability-without-complexity-diagram.png"
+                        alt="Scale operations without adding complexity"
+                        style="
+                           width: 100%;
+                           height: 120px;
+                           object-fit: contain;
+                           opacity: 0.8;
+                        "
+                     />
+                  </div>
+                  <div class="benefit-title">Scale Without Complexity</div>
+                  <p>
+                     Handle unlimited projects across multiple sectors without
+                     adding management layers or operational overhead.
+                  </p>
+               </div>
+               <div class="benefit-card">
+                  <div class="benefit-icon">🤝</div>
+                  <!-- Competitive Advantage Visual -->
+                  <div class="benefit-visual" style="margin-bottom: 1rem">
+                     <img
+                        src="images/competitive-advantage-small-vs-large.png"
+                        alt="Small contractors competing with large firms"
+                        style="
+                           width: 100%;
+                           height: 120px;
+                           object-fit: contain;
+                           opacity: 0.8;
+                        "
+                     />
+                  </div>
+                  <div class="benefit-title">Competitive Advantage</div>
+                  <p>
+                     Small contractors compete with enterprise capabilities.
+                     Large firms bid more aggressively with lower overhead.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- CTA Section -->
+      <section class="cta-section" id="trial">
+         <div class="container">
+            <div class="cta-content">
+               <h2 class="cta-title">
+                  🎉 Limited Time: 3 Months Absolutely FREE
+               </h2>
+               <p style="font-size: 1.3rem; margin-bottom: 2rem">
+                  Experience proven $11.7M savings potential with zero risk.
+                  <br />No setup costs, no training fees, no hidden charges.
+               </p>
+
+               <div class="cta-buttons">
+                  <a href="tel:+13465443100" class="cta-primary"
+                     >📞 Call Now: +1 (346) 544-3100</a
+                  >
+                  <a
+                     href="mailto:cyriac.abraham@growtechpartners.com"
+                     class="cta-secondary"
+                     >📧 Schedule Personal Demo</a
+                  >
+               </div>
+
+               <p style="margin-top: 2rem; opacity: 0.9">
+                  Join companies already saving millions • 100% ROI guarantee •
+                  Implementation in 48 hours
+               </p>
+            </div>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="footer-content">
+               <div class="footer-section">
+                  <h4>Solutions</h4>
+                  <ul>
+                     <li><a href="#buildings">Buildings</a></li>
+                     <li><a href="#roads">Roads & Highways</a></li>
+                     <li><a href="#bridges">Bridges</a></li>
+                     <li><a href="#pipelines">Pipelines</a></li>
+                     <li><a href="#transmission">Transmission Lines</a></li>
+                     <li><a href="#">Railway</a></li>
+                     <li><a href="#">Renewable Energy Power</a></li>
+                     <li><a href="#oilgas">Oil & Gas</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section">
+                  <h4>Users</h4>
+                  <ul>
+                     <li><a href="#ceos">CEOs & Senior Exceutives</a></li>
+                     <li>
+                        <a href="#project-managers">Project Managers & </a>
+                     </li>
+                     <li>
+                        <a href="#innovation-leaders">Innovation Leaders</a>
+                     </li>
+                     <li><a href="#contractors">Contractors</a></li>
+                     <li><a href="#owners">Project Owners</a></li>
+                     <li><a href="#owners">Architects & Engineers</a></li>
+                     <li><a href="#owners">Health & Safety Managers</a></li>
+                     <li><a href="#owners">Quality Managers</a></li>
+                     <li><a href="#owners">Risk Managers</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section">
+                  <h4>Company</h4>
+                  <ul>
+                     <li><a href="#about">About Us</a></li>
+                     <li><a href="#team">Team</a></li>
+                     <li><a href="#patents">Patents</a></li>
+                     <li><a href="#careers">Careers</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section">
+                  <h4>Contact</h4>
+                  <p><strong>Cyriac Abraham</strong><br />Founder & CEO</p>
+                  <p>📞 +1 (346) 544-3100</p>
+                  <p>📧 cyriac.abraham@growtechpartners.com</p>
+                  <p>
+                     📍 1400 Broadfield Blvd, Suite200<br />Houston, TX 77084,
+                     USA
+                  </p>
+               </div>
+            </div>
+
+            <div class="footer-bottom">
+               <div class="footer-logos">
+                  <div style="display: flex; align-items: center; gap: 0.5rem">
+                     <div
+                        class="logo-icon"
+                        style="width: 30px; height: 30px; font-size: 0.8rem"
+                     >
+                        PS
+                     </div>
+                     <span>ProjectScript</span>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 0.5rem">
+                     <div
+                        class="logo-icon"
+                        style="
+                           width: 30px;
+                           height: 30px;
+                           background: linear-gradient(45deg, #667eea, #764ba2);
+                           font-size: 0.7rem;
+                        "
+                     >
+                        GT
+                     </div>
+                     <span>Growtech Partners</span>
+                  </div>
+               </div>
+               <div>
+                  <p>&copy; 2025 Growtech Partners Inc. All Rights Reserved.</p>
+                  <p style="font-style: italic; margin-top: 0.5rem">
+                     Together We Grow Through Technology®
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script
+         src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQSwL3FJpWx7uG4lG+XLzM6YV1Yv4="
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+      <script src="js/main.js"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+   </body>
+</html>
