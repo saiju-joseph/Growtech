@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>ProjectScript</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+               <a class="navbar-brand" href="index.html">
+                  <div class="log">
+                     <img src="images/logo.png" alt="logo" />
+                  </div>
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link" href="features.html">Features</a>
+                     </li>
+
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Solutions
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >General & Building Construction
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >General Construction</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Buildings</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Infrastructure Projects</a
+                              >
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#">
+                                       Roads & Highways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Railways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Pipelines</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Electrical Grids</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Energy & Utilities
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Power Plants</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Power Generation</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Renewable Energy</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Solar Farms</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Industrial & Oil & Gas
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Oil & Gas</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link active dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Users
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a class="dropdown-item" href="#executive"
+                                 >Executives</a
+                              >
+                           </li>
+                           <!-- <li>
+                              <a class="dropdown-item" href="#"
+                                 >Project Managers</a
+                              >
+                           </li> -->
+                           <li>
+                              <a class="dropdown-item" href="#technology"
+                                 >Innovation Leaders</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#management"
+                                 >Managers</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#field"
+                                 >Field Operations</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <!-- <li class="nav-item">
+                        <a class="nav-link" href="benefits.html">Benefits</a>
+                     </li> -->
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Benefits
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#costreduction"
+                                 >Cost Reduction</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#Scalablegrowth"
+                                 >Scalable Growth</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#clientsuccess"
+                                 >Client Success</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#affordability"
+                                 >Affordability</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="why-projectscript.html"
+                           >Why ProjectScript</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <button class="btn btn-gradient" type="submit">
+                        Start Free Trial
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- nav end -->
+      <div class="inner-header benefit-header">
+         <div class="container">
+            <h1 class="hero-title">ProjectScript Users</h1>
+            <p class="hero-subtitle">
+               Built for every construction professional - from C-level
+               executives to field workers. Each role gets specialized
+               capabilities and measurable benefits.
+            </p>
+
+            <div class="user-nav">
+               <a href="#executive" class="nav-button">👔 Executive Level</a>
+               <a href="#technology" class="nav-button"
+                  >💻 Technology Leaders</a
+               >
+               <a href="#management" class="nav-button">📋 Management</a>
+               <a href="#field" class="nav-button">🔨 Field Operations</a>
+            </div>
+         </div>
+      </div>
+      <!-- Main Content -->
+      <main class="main-content users">
+         <div class="container">
+            <!-- Executive Level -->
+            <section id="executive" class="user-category executive">
+               <div class="category-header">
+                  <div class="category-icon">👔</div>
+                  <div>
+                     <h2 class="category-title">Executive Level</h2>
+                     <p class="category-description">
+                        Strategic oversight and enterprise-wide decision making
+                     </p>
+                  </div>
+               </div>
+
+               <div class="user-grid">
+                  <div class="user-item">
+                     <h3 class="user-role">
+                        Senior Executives/C-Level (CEOs, CFOs, COOs, CTOs, CIOs)
+                     </h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           Enterprise portfolio health monitoring, strategic
+                           decision making, custom metrics definition,
+                           predictive analytics access
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           Strategic control, risk mitigation, competitive
+                           advantage, reduced operational costs, digital
+                           transformation leadership
+                        </div>
+                     </div>
+
+                     <div class="user-testimonial">
+                        "ProjectScript is EXCELLENT! I find it very
+                        user-friendly! It integrates all major project
+                        performance factors - health & safety, quality, cost,
+                        schedule, and data analytics."
+                        <div class="testimonial-author">
+                           - Former C-Level Executive, Middle-East Oil Company
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!-- Technology Leadership -->
+            <section id="technology" class="user-category technology">
+               <div class="category-header">
+                  <div class="category-icon">💻</div>
+                  <div>
+                     <h2 class="category-title">Technology Leadership</h2>
+                     <p class="category-description">
+                        Digital transformation and enterprise architecture
+                     </p>
+                  </div>
+               </div>
+
+               <div class="user-grid">
+                  <div class="user-item">
+                     <h3 class="user-role">IT Directors and CIOs</h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           Digital transformation leadership, single code base
+                           implementation, enterprise SSOT oversight, cloud
+                           architecture management
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           4:1 ROI demonstration, reduced integration
+                           complexity, enhanced security, simplified vendor
+                           management, future-proofing
+                        </div>
+                     </div>
+
+                     <div class="user-testimonial">
+                        "ProjectScript is an easy-to-use, collaborative,
+                        real-time, robust, and affordable project management
+                        platform. I have high confidence in the functional
+                        design and in the team."
+                        <div class="testimonial-author">
+                           - Andrew Jurkevics, Project Leader - Legacy Primavera
+                           P6 Development Team
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="user-item">
+                     <h3 class="user-role">Document Controllers</h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           Activity-level document management, version control
+                           integration, repository linking, real-time document
+                           distribution, field access assurance
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           Guaranteed current document versions in field,
+                           eliminated document confusion, reduced rework from
+                           outdated drawings, streamlined document workflows
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!-- Management Level -->
+            <section id="management" class="user-category management">
+               <div class="category-header">
+                  <div class="category-icon">📋</div>
+                  <div>
+                     <h2 class="category-title">Management Level</h2>
+                     <p class="category-description">
+                        Project execution and operational oversight
+                     </p>
+                  </div>
+               </div>
+
+               <div class="user-grid">
+                  <div class="user-item">
+                     <h3 class="user-role">
+                        Construction/Project/Program/Portfolio Managers
+                     </h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           BuildingBlocks project creation, dynamic scheduling,
+                           real-time monitoring, AI-powered predictions, change
+                           management
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           90% time reduction in project creation, better
+                           decision making, cost control, resource optimization,
+                           career advancement
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="user-item">
+                     <h3 class="user-role">
+                        Health & Safety Managers & Inspectors
+                     </h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           Activity-level safety control, random inspections,
+                           compliance tracking, incident prevention, automated
+                           reporting
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           Proactive safety management, compliance assurance,
+                           reduced liability, enhanced productivity from safer
+                           environments
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="user-item">
+                     <h3 class="user-role">
+                        Quality Control Managers & Inspectors
+                     </h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           Activity-level quality control, random inspections,
+                           defect tracking, photo documentation, automated
+                           reporting
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           Proactive quality assurance, reduced rework costs,
+                           client satisfaction, reputation enhancement
+                        </div>
+                     </div>
+
+                     <div class="user-testimonial">
+                        "Quality Control is an integral part of Activity in
+                        ProjectScript which helps control quality at the
+                        activity level. This will help to reduce rework."
+                        <div class="testimonial-author">
+                           - Quality Control Director, Middle East Contractor
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="user-item">
+                     <h3 class="user-role">Risk Managers</h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           Integrated risk register, predictive insights,
+                           mitigation strategies, risk KPI monitoring
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           Proactive risk management, cost savings, project
+                           success, strategic planning support
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="user-item">
+                     <h3 class="user-role">Human Resource Managers</h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           Hiring planning based on resource forecasts,
+                           performance tracking, objective decision-making,
+                           workforce planning
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           Improved employee morale, better productivity, skills
+                           development, reduced turnover, cost optimization
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="user-item">
+                     <h3 class="user-role">Legal & Compliance Managers</h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           Comprehensive audit trails, dispute point
+                           identification, compliance monitoring, legal
+                           documentation
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           Legal protection, reduced legal costs, compliance
+                           assurance, risk mitigation
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="user-item">
+                     <h3 class="user-role">
+                        Planners/Schedulers/Cost Engineers/Project Controls
+                     </h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           BuildingBlocks technology, non-deterministic
+                           scheduling, 100x data processing, unified platform
+                           management
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           Efficiency gains, accuracy improvement, adaptive
+                           planning, career enhancement, better results
+                        </div>
+                     </div>
+
+                     <div class="user-testimonial">
+                        "I am using Primavera for scheduling for the past twenty
+                        plus years. ProjectScript is superior to Primavera in
+                        several ways. Project schedules can be created using
+                        BuildingBlock technology in a fraction of the time."
+                        <div class="testimonial-author">
+                           - Project Controls Manager, Houston-based Energy
+                           Company
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!-- Field Operations -->
+            <section id="field" class="user-category field">
+               <div class="category-header">
+                  <div class="category-icon">🔨</div>
+                  <div>
+                     <h2 class="category-title">Field Operations</h2>
+                     <p class="category-description">
+                        On-site execution and front-line operations
+                     </p>
+                  </div>
+               </div>
+
+               <div class="user-grid">
+                  <div class="user-item">
+                     <h3 class="user-role">
+                        Crew Leads, Foremen, Superintendents, Supervisors
+                     </h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           Enhanced oversight capabilities, mobile access,
+                           real-time coordination, safety assurance, team
+                           management
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           Clear direction, skill development in budget
+                           control/time management/leadership, efficiency,
+                           career growth
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="user-item">
+                     <h3 class="user-role">Workers and Field Employees</h3>
+
+                     <div class="user-section">
+                        <div class="section-label">Capabilities</div>
+                        <div class="user-capabilities">
+                           Daily work guidance, safety education, progress
+                           reporting, team collaboration, work profile
+                           development
+                        </div>
+                     </div>
+
+                     <div class="user-section">
+                        <div class="section-label">Benefits</div>
+                        <div class="user-benefits">
+                           Safety enhancement, productivity improvement, skill
+                           development, fair treatment, job security,
+                           convenience
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!-- Summary Section -->
+            <section class="summary-section mb-0">
+               <div class="summary-title">Universal Benefits for All Users</div>
+
+               <div class="summary-grid">
+                  <div class="summary-item">
+                     <h4>Single Platform</h4>
+                     <p>No need to learn multiple software systems</p>
+                  </div>
+                  <div class="summary-item">
+                     <h4>Real-time Collaboration</h4>
+                     <p>Instant communication across all stakeholders</p>
+                  </div>
+                  <div class="summary-item">
+                     <h4>Mobile Access</h4>
+                     <p>Field-ready interface for on-site operations</p>
+                  </div>
+                  <div class="summary-item">
+                     <h4>Predictive Intelligence</h4>
+                     <p>
+                        AI-driven insights prevent problems before they occur
+                     </p>
+                  </div>
+                  <div class="summary-item">
+                     <h4>Cost Savings</h4>
+                     <p>
+                        Comprehensive optimization leads to significant project
+                        cost reductions
+                     </p>
+                  </div>
+                  <div class="summary-item">
+                     <h4>Better Outcomes</h4>
+                     <p>
+                        Coordinated efforts across all levels ensure successful
+                        project delivery
+                     </p>
+                  </div>
+               </div>
+               <div style="margin-top: 30px; font-size: 1.1rem; opacity: 0.9">
+                  <strong>Stakeholder Integration:</strong> Seamless
+                  collaboration with Project Owners, Investors, Architects,
+                  Engineers, Consultants, Contractors, Subcontractors, Vendors,
+                  Professional Service Providers, and Regulatory Agencies
+               </div>
+               <div class="cta-buttons">
+                  <a href="tel:+13465443100" class="cta-button"
+                     >📞 Call +1 (346) 544-3100</a
+                  >
+                  <a
+                     href="mailto:cyriac.abraham@growtechpartners.com"
+                     class="cta-button secondary"
+                     >📧 Schedule Demo</a
+                  >
+               </div>
+            </section>
+         </div>
+      </main>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="footer-content">
+               <div class="footer-section">
+                  <h4>Solutions</h4>
+                  <ul>
+                     <li><a href="#buildings">Buildings</a></li>
+                     <li><a href="#roads">Roads & Highways</a></li>
+                     <li><a href="#bridges">Bridges</a></li>
+                     <li><a href="#pipelines">Pipelines</a></li>
+                     <li><a href="#transmission">Transmission Lines</a></li>
+                     <li><a href="#">Railway</a></li>
+                     <li><a href="#">Renewable Energy Power</a></li>
+                     <li><a href="#oilgas">Oil & Gas</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section">
+                  <h4>Users</h4>
+                  <ul>
+                     <li><a href="#ceos">CEOs & Senior Exceutives</a></li>
+                     <li>
+                        <a href="#project-managers">Project Managers & </a>
+                     </li>
+                     <li>
+                        <a href="#innovation-leaders">Innovation Leaders</a>
+                     </li>
+                     <li><a href="#contractors">Contractors</a></li>
+                     <li><a href="#owners">Project Owners</a></li>
+                     <li><a href="#owners">Architects & Engineers</a></li>
+                     <li><a href="#owners">Health & Safety Managers</a></li>
+                     <li><a href="#owners">Quality Managers</a></li>
+                     <li><a href="#owners">Risk Managers</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section">
+                  <h4>Company</h4>
+                  <ul>
+                     <li><a href="#about">About Us</a></li>
+                     <li><a href="#team">Team</a></li>
+                     <li><a href="#patents">Patents</a></li>
+                     <li><a href="#careers">Careers</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section">
+                  <h4>Contact</h4>
+                  <p><strong>Cyriac Abraham</strong><br />Founder & CEO</p>
+                  <p>📞 +1 (346) 544-3100</p>
+                  <p>📧 cyriac.abraham@growtechpartners.com</p>
+                  <p>
+                     📍 1400 Broadfield Blvd, Suite200<br />Houston, TX 77084,
+                     USA
+                  </p>
+               </div>
+            </div>
+
+            <div class="footer-bottom">
+               <div class="footer-logos">
+                  <div style="display: flex; align-items: center; gap: 0.5rem">
+                     <div
+                        class="logo-icon"
+                        style="width: 30px; height: 30px; font-size: 0.8rem"
+                     >
+                        PS
+                     </div>
+                     <span>ProjectScript</span>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 0.5rem">
+                     <div
+                        class="logo-icon"
+                        style="
+                           width: 30px;
+                           height: 30px;
+                           background: linear-gradient(45deg, #667eea, #764ba2);
+                           font-size: 0.7rem;
+                        "
+                     >
+                        GT
+                     </div>
+                     <span>Growtech Partners</span>
+                  </div>
+               </div>
+               <div>
+                  <p>&copy; 2025 Growtech Partners Inc. All Rights Reserved.</p>
+                  <p style="font-style: italic; margin-top: 0.5rem">
+                     Together We Grow Through Technology®
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script
+         src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQSwL3FJpWx7uG4lG+XLzM6YV1Yv4="
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+      <script src="js/main.js"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+   </body>
+</html>

@@ -35,6 +35,18 @@ h6 {
    border-bottom: 1px solid #e2e8f0;
 }
 
+.dropdown-submenu > .dropdown-menu {
+   top: 0;
+   left: 100%;
+   margin-top: -1px;
+   display: none;
+   position: absolute;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+   display: block;
+}
+
 .btn-gradient {
    background: linear-gradient(45deg, #3182ce, #2d3748);
    color: white;
@@ -1110,6 +1122,123 @@ footer {
    font-size: 1.2rem;
    opacity: 0.95;
    line-height: 1.6;
+}
+
+/* user */
+.user-nav {
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   margin: 3rem 0;
+   flex-wrap: wrap;
+}
+
+.user-category {
+   background: white;
+   border-radius: 20px;
+   padding: 40px;
+   margin-bottom: 40px;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   border-left: 5px solid var(--category-color);
+}
+
+.category-header {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   margin-bottom: 30px;
+}
+
+.category-icon {
+   font-size: 3rem;
+   color: var(--category-color);
+}
+
+.category-title {
+   font-size: 2.2rem;
+   font-weight: 700;
+   color: var(--category-color);
+}
+
+.category-description {
+   font-size: 1.1rem;
+   color: #666;
+   margin-left: 4rem;
+}
+
+/* Category Colors */
+.executive {
+   --category-color: #667eea;
+}
+.technology {
+   --category-color: #ff6b6b;
+}
+.management {
+   --category-color: #4caf50;
+}
+.field {
+   --category-color: #ff9800;
+}
+
+.user-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+   gap: 30px;
+   margin-top: 30px;
+}
+
+.user-item {
+   background: #f8fafc;
+   padding: 25px;
+   border-radius: 15px;
+   border-left: 4px solid var(--category-color);
+   transition: all 0.3s ease;
+}
+
+.user-item:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.user-role {
+   font-size: 1.2rem;
+   font-weight: 700;
+   color: var(--category-color);
+   margin-bottom: 15px;
+}
+
+.user-section {
+   margin-bottom: 15px;
+}
+
+.section-label {
+   font-weight: 600;
+   color: #4a5568;
+   font-size: 0.9rem;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+   margin-bottom: 8px;
+}
+
+.user-capabilities {
+   font-size: 1rem;
+   color: #555;
+   line-height: 1.6;
+   margin-bottom: 15px;
+}
+
+.user-benefits {
+   font-size: 1rem;
+   color: #2d3748;
+   line-height: 1.6;
+   background: #e8f5e8;
+   padding: 12px;
+   border-radius: 8px;
+   border-left: 3px solid #48bb78;
+}
+
+.users .testimonial-author {
+   color: #666;
 }
 /* Mobile Responsive */
 @media (max-width: 768px) {
