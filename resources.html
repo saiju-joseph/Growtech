@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>ProjectScript</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+               <a class="navbar-brand" href="index.html">
+                  <div class="log">
+                     <img src="images/logo.png" alt="logo" />
+                  </div>
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Solutions
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >General & Building Construction
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >General Construction</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Buildings</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Infrastructure Projects</a
+                              >
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#">
+                                       Roads & Highways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Railways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Pipelines</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Electrical Grids</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Energy & Utilities
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Power Plants</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Power Generation</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Renewable Energy</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Solar Farms</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Industrial & Oil & Gas
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Oil & Gas</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="features.html">Features</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Users
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#executive"
+                                 >Executives</a
+                              >
+                           </li>
+                           <!-- <li>
+                              <a class="dropdown-item" href="#"
+                                 >Project Managers</a
+                              >
+                           </li> -->
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#technology"
+                                 >Innovation Leaders</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#management"
+                                 >Managers</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="users.html#field"
+                                 >Field Operations</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <!-- <li class="nav-item">
+                        <a class="nav-link" href="benefits.html">Benefits</a>
+                     </li> -->
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Benefits
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#costreduction"
+                                 >Cost Reduction</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#Scalablegrowth"
+                                 >Scalable Growth</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#clientsuccess"
+                                 >Client Success</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#affordability"
+                                 >Affordability</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="why-projectscript.html"
+                           >Why ProjectScript</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" href="resources.html"
+                           >Resources</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <button class="btn btn-gradient" type="submit">
+                        Start Free Trial
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- nav end -->
+      <div class="inner-header benefit-header">
+         <div class="container">
+            <h1 class="hero-title">ProjectScript Resources</h1>
+            <p class="hero-subtitle">
+               Watch our complete video series, explore features, and discover
+               how ProjectScript transforms construction management
+            </p>
+
+            <div class="video-nav">
+               <a href="#videos" class="nav-button">🎥 Watch Videos</a>
+               <a href="#screenshots" class="nav-button">📱 Screenshots</a>
+               <a href="#demo" class="nav-button">🖥️ Live Demo</a>
+               <a href="#case-studies" class="nav-button">📋 Case Studies</a>
+               <a href="#calculator" class="nav-button">🧮 ROI Calculator</a>
+            </div>
+         </div>
+      </div>
+      <!-- Main Content -->
+      <main class="main-content">
+         <div class="container">
+            <!-- Video Showcase Section -->
+            <section id="videos" class="video-showcase">
+               <h2 class="section-title">ProjectScript Video Series</h2>
+               <p class="section-subtitle">
+                  Watch our complete story: from construction industry problems
+                  to the revolutionary ProjectScript solution
+               </p>
+
+               <!-- Viewing Journey -->
+               <div class="journey-section">
+                  <h3 class="journey-title">Recommended Viewing Journey</h3>
+                  <div class="journey-flow">
+                     <div class="journey-step">
+                        <div style="font-size: 1.2rem; font-weight: bold">
+                           1. The Problem
+                        </div>
+                        <div style="font-size: 0.9rem; opacity: 0.9">
+                           Identify pain points
+                        </div>
+                     </div>
+                     <div class="journey-arrow">→</div>
+                     <div class="journey-step">
+                        <div style="font-size: 1.2rem; font-weight: bold">
+                           2. The Solution
+                        </div>
+                        <div style="font-size: 0.9rem; opacity: 0.9">
+                           See the answer
+                        </div>
+                     </div>
+                     <div class="journey-arrow">→</div>
+                     <div class="journey-step">
+                        <div style="font-size: 1.2rem; font-weight: bold">
+                           3. What is ProjectScript?
+                        </div>
+                        <div style="font-size: 0.9rem; opacity: 0.9">
+                           Product overview
+                        </div>
+                     </div>
+                     <div class="journey-arrow">→</div>
+                     <div class="journey-step">
+                        <div style="font-size: 1.2rem; font-weight: bold">
+                           4. For Contractors
+                        </div>
+                        <div style="font-size: 0.9rem; opacity: 0.9">
+                           Specific benefits
+                        </div>
+                     </div>
+                  </div>
+                  <p style="opacity: 0.9">
+                     Watch in sequence for the complete ProjectScript story, or
+                     jump to any video that interests you most
+                  </p>
+               </div>
+
+               <div class="video-grid">
+                  <!-- Video 1: The Problem -->
+                  <div class="video-card featured">
+                     <div class="video-thumbnail">
+                        <button class="play-button">▶</button>
+                        <div
+                           style="
+                              position: absolute;
+                              top: 15px;
+                              left: 15px;
+                              background: rgba(0, 0, 0, 0.7);
+                              color: white;
+                              padding: 5px 10px;
+                              border-radius: 15px;
+                              font-size: 0.8rem;
+                           "
+                        >
+                           START HERE
+                        </div>
+                     </div>
+                     <div class="video-info">
+                        <h3 class="video-title">1. The Problem</h3>
+                        <p class="video-description">
+                           Discover the critical challenges facing the
+                           construction industry today. Why traditional project
+                           management software fails to deliver results and
+                           costs companies millions in lost productivity.
+                        </p>
+                        <div class="video-meta">
+                           <span class="video-duration">3-4 mins</span>
+                           <span class="video-audience"
+                              >For: All audiences</span
+                           >
+                        </div>
+                        <button class="watch-button">
+                           ▶ Watch: The Problem
+                        </button>
+                     </div>
+                  </div>
+
+                  <!-- Video 2: The Solution -->
+                  <div class="video-card">
+                     <div class="video-thumbnail">
+                        <button class="play-button">▶</button>
+                     </div>
+                     <div class="video-info">
+                        <h3 class="video-title">2. The Solution</h3>
+                        <p class="video-description">
+                           See how ProjectScript addresses every pain point with
+                           revolutionary technology. Learn about our AI-powered
+                           approach, patent-pending innovations, and proven ROI.
+                        </p>
+                        <div class="video-meta">
+                           <span class="video-duration">4-5 mins</span>
+                           <span class="video-audience"
+                              >For: Decision makers</span
+                           >
+                        </div>
+                        <button class="watch-button">
+                           ▶ Watch: The Solution
+                        </button>
+                     </div>
+                  </div>
+
+                  <!-- Video 3: What is ProjectScript? -->
+                  <div class="video-card">
+                     <div class="video-thumbnail">
+                        <button class="play-button">▶</button>
+                     </div>
+                     <div class="video-info">
+                        <h3 class="video-title">3. What is ProjectScript?</h3>
+                        <p class="video-description">
+                           Deep dive into ProjectScript features and
+                           capabilities. See BuildingBlocks technology,
+                           real-time integration, and user-friendly interfaces
+                           in action.
+                        </p>
+                        <div class="video-meta">
+                           <span class="video-duration">5-6 mins</span>
+                           <span class="video-audience"
+                              >For: Technical evaluators</span
+                           >
+                        </div>
+                        <button class="watch-button">
+                           ▶ Watch: Product Overview
+                        </button>
+                     </div>
+                  </div>
+
+                  <!-- Video 4: For Contractors -->
+                  <div class="video-card">
+                     <div class="video-thumbnail">
+                        <button class="play-button">▶</button>
+                     </div>
+                     <div class="video-info">
+                        <h3 class="video-title">4. For Contractors</h3>
+                        <p class="video-description">
+                           Specific benefits for construction contractors.
+                           Real-world examples, ROI calculations, and success
+                           stories from companies using ProjectScript.
+                        </p>
+                        <div class="video-meta">
+                           <span class="video-duration">3-4 mins</span>
+                           <span class="video-audience"
+                              >For: Contractors & CEOs</span
+                           >
+                        </div>
+                        <button class="watch-button">
+                           ▶ Watch: Contractor Benefits
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!-- Additional Resources -->
+            <section class="resources-grid">
+               <div id="screenshots" class="resource-section">
+                  <div class="resource-icon">📱</div>
+                  <h3 class="resource-title">Screenshots Gallery</h3>
+                  <p class="resource-description">
+                     Explore ProjectScript's interface with detailed screenshots
+                     of dashboards, mobile apps, and key features.
+                  </p>
+                  <a href="#" class="resource-button coming-soon"
+                     >Coming Soon</a
+                  >
+               </div>
+
+               <div id="demo" class="resource-section">
+                  <div class="resource-icon">🖥️</div>
+                  <h3 class="resource-title">Schedule Live Demo</h3>
+                  <p class="resource-description">
+                     Get a personalized ProjectScript demonstration tailored to
+                     your specific construction needs and challenges.
+                  </p>
+                  <a
+                     href="mailto:cyriac.abraham@growtechpartners.com"
+                     class="resource-button"
+                     >Schedule Demo</a
+                  >
+               </div>
+
+               <div id="case-studies" class="resource-section">
+                  <div class="resource-icon">📋</div>
+                  <h3 class="resource-title">Case Studies</h3>
+                  <p class="resource-description">
+                     Read detailed success stories and ROI analysis from
+                     construction companies using ProjectScript.
+                  </p>
+                  <a href="#" class="resource-button coming-soon"
+                     >Coming Soon</a
+                  >
+               </div>
+
+               <div class="resource-section">
+                  <div class="resource-icon">📄</div>
+                  <h3 class="resource-title">Whitepapers</h3>
+                  <p class="resource-description">
+                     Industry insights, research reports, and technical
+                     documentation about construction management innovation.
+                  </p>
+                  <a href="#" class="resource-button coming-soon"
+                     >Coming Soon</a
+                  >
+               </div>
+
+               <div id="calculator" class="resource-section">
+                  <div class="resource-icon">🧮</div>
+                  <h3 class="resource-title">ROI Calculator</h3>
+                  <p class="resource-description">
+                     Calculate your potential savings with ProjectScript based
+                     on your company size and project volume.
+                  </p>
+                  <a href="#" class="resource-button coming-soon"
+                     >Coming Soon</a
+                  >
+               </div>
+
+               <div class="resource-section">
+                  <div class="resource-icon">📚</div>
+                  <h3 class="resource-title">Documentation</h3>
+                  <p class="resource-description">
+                     Technical guides, implementation resources, and user
+                     manuals for ProjectScript platform.
+                  </p>
+                  <a href="#" class="resource-button coming-soon"
+                     >Coming Soon</a
+                  >
+               </div>
+            </section>
+         </div>
+      </main>
+      <!-- CTA Section -->
+      <section class="cta-section">
+         <h2 class="cta-title">
+            Ready to Transform Your Construction Management?
+         </h2>
+         <p class="cta-subtitle">
+            Start your 3-month FREE trial and experience the ProjectScript
+            difference
+         </p>
+
+         <div class="cta-buttons">
+            <a href="tel:+13465443100" class="cta-button"
+               >📞 Call +1 (346) 544-3100</a
+            >
+            <a
+               href="mailto:cyriac.abraham@growtechpartners.com"
+               class="cta-button secondary"
+               >📧 Schedule Personal Demo</a
+            >
+         </div>
+         <p style="margin-top: 30px; opacity: 0.9">
+            Join companies already saving millions • 100% ROI guarantee •
+            48-hour implementation
+         </p>
+      </section>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="footer-section col-lg-3">
+                  <h4>Solutions</h4>
+                  <div class="d-flex">
+                     <ul>
+                        <li><a href="#">General Construction</a></li>
+                        <li><a href="#">Buildings </a></li>
+                        <li><a href="#">Roads & Highways </a></li>
+                        <li><a href="#">Railways</a></li>
+                        <li><a href="#">Pipelines</a></li>
+                        <li><a href="#">Electrical Grids</a></li>
+                     </ul>
+                     <ul class="ps-5">
+                        <li><a href="#">Power Plants</a></li>
+                        <li><a href="#">Power Generation</a></li>
+                        <li><a href="#">Renewable Energy</a></li>
+                        <li><a href="#">Solar Farms</a></li>
+                        <li><a href="#"> Oil & Gas</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="footer-section col-lg-3">
+                  <h4>Users</h4>
+                  <ul>
+                     <li><a href="user.html#executive">Exceutives</a></li>
+                     <li>
+                        <a href="user.html#technology">Innovation Leaders</a>
+                     </li>
+                     <li><a href="user.html#management">Managers</a></li>
+                     <li><a href="use.html#field">Field Operations</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section col-lg-2">
+                  <h4>Company</h4>
+                  <ul>
+                     <li><a href="#about">About Us</a></li>
+                     <li><a href="#team">Team</a></li>
+                     <li><a href="#patents">Patents</a></li>
+                     <li><a href="#careers">Careers</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section col-lg-4">
+                  <h4>Contact</h4>
+                  <p><strong>Cyriac Abraham</strong><br />Founder & CEO</p>
+                  <p>📞 +1 (346) 544-3100</p>
+                  <p>📧 cyriac.abraham@growtechpartners.com</p>
+                  <p>
+                     📍 1400 Broadfield Blvd, Suite200<br />Houston, TX 77084,
+                     USA
+                  </p>
+               </div>
+            </div>
+
+            <div class="footer-bottom">
+               <div class="footer-logos">
+                  <div class="logo-ps">
+                     <img src="images/logo.png" alt="logo" class="img-fluid" />
+                  </div>
+                  <div class="logo-growtech">
+                     <img
+                        src="images/logo-growtech.svg"
+                        alt="logo"
+                        class="img-fluid"
+                     />
+                  </div>
+               </div>
+               <div>
+                  <p class="mb-0">
+                     <small>
+                        &copy; 2025 Growtech Partners Inc. All Rights
+                        Reserved.</small
+                     >
+                  </p>
+                  <p style="font-style: italic">
+                     <small> Together We Grow Through Technology®</small>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script
+         src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQSwL3FJpWx7uG4lG+XLzM6YV1Yv4="
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+      <script src="js/main.js"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+   </body>
+</html>
