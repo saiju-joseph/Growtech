@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>ProjectScript</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+               <a class="navbar-brand" href="index.html">
+                  <div class="log">
+                     <img src="images/logo.png" alt="logo" />
+                  </div>
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link active dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Solutions
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >General & Building Construction
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >General Construction</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Buildings</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Infrastructure Projects</a
+                              >
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#">
+                                       Roads & Highways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Railways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Pipelines</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Electrical Grids</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Energy & Utilities
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Power Plants</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Power Generation</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Renewable Energy</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Solar Farms</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Industrial & Oil & Gas
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Oil & Gas</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="features.html">Features</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Users
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#executive"
+                                 >Executives</a
+                              >
+                           </li>
+                           <!-- <li>
+                              <a class="dropdown-item" href="#"
+                                 >Project Managers</a
+                              >
+                           </li> -->
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#technology"
+                                 >Innovation Leaders</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#management"
+                                 >Managers</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="users.html#field"
+                                 >Field Operations</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <!-- <li class="nav-item">
+                        <a class="nav-link" href="benefits.html">Benefits</a>
+                     </li> -->
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Benefits
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#costreduction"
+                                 >Cost Reduction</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#Scalablegrowth"
+                                 >Scalable Growth</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#clientsuccess"
+                                 >Client Success</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#affordability"
+                                 >Affordability</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="why-projectscript.html"
+                           >Why ProjectScript</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <button class="btn btn-gradient" type="submit">
+                        Start Free Trial
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- nav end -->
+      <div class="inner-header benefit-header">
+         <div class="container">
+            <h1 class="hero-title mb-1">PowerScript</h1>
+            <p class="hero-subtitle fw-bold mb-2">
+               Power Generation Construction
+            </p>
+            <p class="hero-subtitle">
+               Introducing PowerScript<br />
+               The first construction management platform built exclusively for
+               power generation contractors.
+            </p>
+            <p class="hero-subtitle fw-bold fs-3 mb-2">
+               Your Current Software is Costing You Money
+            </p>
+            <p>
+               Power plants aren't office buildings. So why use generic
+               software?
+            </p>
+            <div class="hero-stats">
+               <div class="hero-stat">
+                  <div class="hero-stat-number"></div>
+                  <div class="hero-stat-label">
+                     Power plants aren't office buildings. So why use generic
+                     software?
+                  </div>
+               </div>
+               <div class="hero-stat">
+                  <div class="hero-stat-number"></div>
+                  <div class="hero-stat-label">
+                     Steam piping at 1000°F isn't residential plumbing.
+                  </div>
+               </div>
+               <div class="hero-stat">
+                  <div class="hero-stat-number"></div>
+                  <div class="hero-stat-label">
+                     High-voltage safety isn't just a checklist—it's a
+                     discipline.
+                  </div>
+               </div>
+               <div class="hero-stat">
+                  <div class="hero-stat-number"></div>
+                  <div class="hero-stat-label">
+                     <strong>PowerScript</strong> was built for mission-critical
+                     infrastructure—because when the stakes are highest,
+                     <strong>generic software fails</strong>.
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Main Content -->
+      <section class="section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">
+                  PowerScript: Built Exclusively for Power Generation
+               </h2>
+               <p class="section-subtitle">
+                  The industry's first construction management platform
+                  engineered specifically for power generation contractors and
+                  critical infrastructure projects
+               </p>
+            </div>
+            <div class="solution-grid">
+               <div class="solution-card">
+                  <div class="solution-icon">📋</div>
+                  <h3 class="solution-title">
+                     Power Generation Milestone Planning
+                  </h3>
+                  <p class="solution-description">
+                     Power plants aren't built by letting crews "figure it out."
+                     Every plan, every budget, and every labor hour must align
+                     with clearly defined milestones.
+                  </p>
+                  <p
+                     style="
+                        font-weight: 600;
+                        color: #dc2626;
+                        margin-bottom: 1rem;
+                     "
+                  >
+                     PowerScript delivers detailed, activity-level planning,
+                     budgeting, and control—anchored to mission-critical power
+                     generation deliverables.
+                  </p>
+                  <p style="color: #4a5568; margin-bottom: 1rem">
+                     These milestones are unique to power projects and demand a
+                     disciplined, structured approach:
+                  </p>
+                  <ul class="solution-features">
+                     <li><strong>Hydrostatic Test</strong></li>
+                     <li><strong>First Fire</strong></li>
+                     <li><strong>Steam Blow</strong></li>
+                     <li><strong>Systems Commissioning & Turnover</strong></li>
+                     <li><strong>Synchronization</strong></li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">⚠️</div>
+                  <h3 class="solution-title">Multi-Hazard Safety Management</h3>
+                  <p class="solution-description">
+                     Power generation sites have overlapping, compounding risks
+                     that generic software can't handle.
+                  </p>
+                  <p
+                     style="
+                        font-weight: 600;
+                        color: #dc2626;
+                        margin-bottom: 1rem;
+                     "
+                  >
+                     PowerScript manages these interconnected dangers,
+                     including:
+                  </p>
+                  <ul class="solution-features">
+                     <li>Work at height and fall protection</li>
+                     <li>Rigging and heavy equipment handling</li>
+                     <li>High-voltage electrical systems</li>
+                     <li>High-pressure piping at elevated temperatures</li>
+                     <li>Chemical, radiation, and environmental exposures</li>
+                     <li>Confined space entry and safety protocols</li>
+                  </ul>
+                  <p style="font-weight: 600; color: #dc2626; margin-top: 1rem">
+                     With PowerScript, safety isn't an afterthought—it's
+                     integrated into every activity, every crew assignment, and
+                     every milestone.
+                  </p>
+               </div>
+
+               <div class="solution-card">
+                  <div class="qa-section-title">
+                     Proactive Quality Assurance
+                  </div>
+                  <div class="qa-subtitle">
+                     Generic QC catches problems after they happen. PowerScript
+                     prevents them from happening at all.
+                  </div>
+                  <div class="qa-description">
+                     PowerScript empowers crews to
+                     <strong>get it right the first time</strong> through
+                     intelligent, real-time quality management:
+                  </div>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>Real-time quality requirements:</strong> Workers
+                        know exactly which codes and standards apply to each
+                        activity—no ambiguity, no assumptions.
+                     </li>
+                     <li>
+                        <strong
+                           >Integrated documentation & traceability:</strong
+                        >
+                        Every action, inspection, and material is automatically
+                        documented with full audit trails—preventing compliance
+                        gaps and ensuring accountability.
+                     </li>
+                  </ul>
+                  <div class="qa-conclusion">
+                     With PowerScript, quality isn't inspected in—it's built in.
+                  </div>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">🎯</div>
+                  <h3 class="solution-title">Smart Resource Allocation</h3>
+                  <p class="solution-description">
+                     Generic software assigns workers based on availability.
+                     PowerScript optimizes based on skills, certifications, and
+                     project requirements.
+                  </p>
+                  <p
+                     style="
+                        font-weight: 600;
+                        color: #dc2626;
+                        margin-bottom: 1rem;
+                     "
+                  >
+                     PowerScript ensures the right people are in the right place
+                     at the right time:
+                  </p>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>Skill-based task assignment:</strong> Workers
+                        are assigned based on certifications and proven
+                        capabilities, not just availability.
+                     </li>
+                     <li>
+                        <strong>Smart QC deployment:</strong> Inspectors are
+                        automatically alerted and positioned where and when
+                        quality-critical activities occur.
+                     </li>
+                     <li>
+                        <strong>AI-driven crew optimization:</strong>
+                        Intelligent algorithms match worker skills to task
+                        complexity and safety requirements.
+                     </li>
+                     <li>
+                        <strong>Dynamic resource reallocation:</strong>
+                        Automatic crew adjustments based on changing project
+                        priorities and conditions.
+                     </li>
+                  </ul>
+                  <p style="font-weight: 600; color: #dc2626; margin-top: 1rem">
+                     No guesswork. No mismatched skills. Just optimized
+                     performance across every power generation activity.
+                  </p>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">📜</div>
+                  <h3 class="solution-title">
+                     Built-In Standards. Built for Power Projects.
+                  </h3>
+                  <p class="solution-description">
+                     Power plants can't operate without meeting rigorous codes
+                     and standards. Why use software that doesn't know them?
+                  </p>
+                  <p
+                     style="
+                        font-weight: 600;
+                        color: #dc2626;
+                        margin-bottom: 1rem;
+                     "
+                  >
+                     PowerScript integrates power generation standards directly
+                     into your workflow:
+                  </p>
+                  <ul class="solution-features">
+                     <li>ASCE structural standards</li>
+                     <li>AISC steel construction specifications</li>
+                     <li>ASME pressure vessel codes</li>
+                     <li>ANSI and IEEE safety and electrical requirements</li>
+                     <li>AWS welding standards and procedures</li>
+                     <li>CSI MasterFormat construction specifications</li>
+                  </ul>
+                  <p style="font-weight: 600; color: #dc2626; margin-top: 1rem">
+                     No code books. No confusion. PowerScript ensures the right
+                     standard is applied at the right time—so compliance is
+                     never left to chance.
+                  </p>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">🔧</div>
+                  <h3 class="solution-title">Process-Specific Oversight</h3>
+                  <p class="solution-description">
+                     Power generation construction involves complex processes
+                     that require specialized management and oversight
+                     protocols.
+                  </p>
+                  <p
+                     style="
+                        font-weight: 600;
+                        color: #dc2626;
+                        margin-bottom: 1rem;
+                     "
+                  >
+                     PowerScript provides intelligent oversight for critical
+                     power generation processes:
+                  </p>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>QC Process Empowerment:</strong> Whether it's
+                        mass concrete pours or sophisticated welding,
+                        PowerScript empowers QC inspectors to follow required
+                        processes with real-time guidance.
+                     </li>
+                     <li>
+                        <strong>Non-destructive examinations:</strong>
+                        Coordinating NDT scheduling and results management
+                        across all testing phases.
+                     </li>
+                     <li>
+                        <strong>Pressure testing coordination:</strong>
+                        Hydrostatic and pneumatic test management with automated
+                        documentation.
+                     </li>
+                     <li>
+                        <strong>Comprehensive certification management:</strong>
+                        Whether it's material certification, equipment
+                        certification, or worker certification, PowerScript
+                        enables managers to track everything with full
+                        traceability.
+                     </li>
+                  </ul>
+                  <p style="font-weight: 600; color: #dc2626; margin-top: 1rem">
+                     PowerScript understands that power generation processes
+                     require specialized expertise built into every workflow.
+                  </p>
+               </div>
+            </div>
+            <div class="differentiator-card py-5">
+               <h2 class="fw-bold">
+                  Whether you're building combined cycle, simple cycle,
+                  coal-fired, nuclear<br />
+                  or renewable facilities—
+               </h2>
+               <p class="lead text-white fw-normal">
+                  PowerScript is the ideal project management solution
+               </p>
+            </div>
+         </div>
+      </section>
+      <section class="section comparison-section">
+         <div class="container">
+            <h2 class="section-title">
+               PowerScript vs. Generic Construction Software
+            </h2>
+            <p class="section-subtitle">
+               See why power generation contractors choose purpose-built
+               software over generic solutions
+            </p>
+            <div class="comparison-table-container">
+               <div class="comparison-table">
+                  <div class="comparison-header">
+                     <div class="comparison-cell header-cell">
+                        Power Generation Capability
+                     </div>
+                     <div
+                        class="comparison-cell header-cell powerscript-header"
+                     >
+                        PowerScript
+                     </div>
+                     <div class="comparison-cell header-cell competitor-header">
+                        Asta Powerproject
+                     </div>
+                     <div class="comparison-cell header-cell competitor-header">
+                        Primavera P6
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        Power Generation Milestones
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ Built-in Hydrostatic Test, First Fire, Steam Blow,
+                        Synchronization workflows
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Generic milestones only
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Manual configuration required
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        Systems-Based Project Scheduling
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ Systems-based approach prioritizes construction
+                        activities and speeds up milestones
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Generic activity scheduling
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ No power generation systems understanding
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        Multi-Hazard Safety Management
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ Interconnected safety protocols for overlapping,
+                        compounding risks
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Basic safety checklists only
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ No power generation safety protocols
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        Proactive Quality Assurance
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ Prevents problems before they occur with smart QC
+                        deployment
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Reactive quality management only
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Manual quality control processes
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        Built-in Standards Integration
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ ASCE, AISC, ASME, ANSI, IEEE, AWS standards
+                        integrated into workflow
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Generic compliance only
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Manual standards tracking
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        Smart Resource Allocation
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ AI-driven skill-based assignments with certification
+                        tracking
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Manual resource assignment
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Basic resource scheduling only
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        Process-Specific Oversight
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ Specialized protocols for concrete pours, welding,
+                        NDT, pressure testing
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Generic process management
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ No power plant process knowledge
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        Real-time Integration
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ Safety, quality, schedule, cost integrated real-time
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Separate systems integration
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Schedule-focused only
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        AI-Powered Automation
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ 50% process automation, 9 patents pending
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Manual processes
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Legacy architecture
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        Implementation Speed
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ 48-hour setup, zero training costs
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Months of implementation
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Complex setup, extensive training
+                     </div>
+                  </div>
+
+                  <div class="comparison-row">
+                     <div class="comparison-cell feature-cell">
+                        Target Users
+                     </div>
+                     <div class="comparison-cell powerscript-cell">
+                        ✅ Directors, Executives, Managers, Foremen
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Project Managers
+                     </div>
+                     <div class="comparison-cell competitor-cell">
+                        ❌ Schedulers
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="testimonial-hero">
+               <h3
+                  style="color: #f59e0b; margin-bottom: 1rem; font-size: 1.3rem"
+               >
+                  💬 What Power Generation Contractors Say
+               </h3>
+               <p>
+                  "I am using Primavera for scheduling for the past twenty plus
+                  years. ProjectScript is superior to Primavera in several ways.
+                  Project schedules can be created using BuildingBlock
+                  technology in a fraction of the time."
+               </p>
+               <div style="font-weight: 600; color: #dc2626">
+                  — Project Controls Manager, Major Houston Energy Company
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section pt-0">
+         <div class="container">
+            <h2 class="section-title">Who Benefits from PowerScript</h2>
+            <p class="section-subtitle">
+               Every role in power generation construction gets measurable value
+               from PowerScript's comprehensive platform
+            </p>
+
+            <div class="user-benefits-grid">
+               <div class="user-benefit-card">
+                  <div class="user-icon">👔</div>
+                  <h3 class="user-title">Executive Leadership</h3>
+                  <div class="user-roles">CEOs, VPs, Directors</div>
+                  <div class="user-capabilities">
+                     <strong>What They Can Do:</strong>
+                     <ul>
+                        <li>
+                           Real-time enterprise dashboard with power generation
+                           KPIs
+                        </li>
+                        <li>
+                           Portfolio oversight across multiple power projects
+                        </li>
+                        <li>Predictive analytics for risk mitigation</li>
+                        <li>Automated regulatory compliance reporting</li>
+                     </ul>
+                  </div>
+                  <div class="user-benefits">
+                     <strong>Key Benefits:</strong> 289% ROI, $11.67M savings
+                     potential, competitive advantage, risk mitigation
+                  </div>
+               </div>
+
+               <div class="user-benefit-card">
+                  <div class="user-icon">📊</div>
+                  <h3 class="user-title">Project Management</h3>
+                  <div class="user-roles">Construction/Project Managers</div>
+                  <div class="user-capabilities">
+                     <strong>What They Can Do:</strong>
+                     <ul>
+                        <li>
+                           BuildingBlocks rapid project creation for power
+                           plants
+                        </li>
+                        <li>
+                           AI-powered scheduling with power generation
+                           milestones
+                        </li>
+                        <li>
+                           Real-time monitoring of safety, quality, schedule,
+                           cost
+                        </li>
+                        <li>Automated change management and documentation</li>
+                     </ul>
+                  </div>
+                  <div class="user-benefits">
+                     <strong>Key Benefits:</strong> 90% reduction in planning
+                     effort, better project outcomes, career advancement
+                  </div>
+               </div>
+
+               <div class="user-benefit-card">
+                  <div class="user-icon">⚙️</div>
+                  <h3 class="user-title">Technical Specialists</h3>
+                  <div class="user-roles">
+                     Planners, Schedulers, Cost Engineers
+                  </div>
+                  <div class="user-capabilities">
+                     <strong>What They Can Do:</strong>
+                     <ul>
+                        <li>
+                           Create power projects in 10% of traditional time
+                        </li>
+                        <li>Process 100x more data than existing software</li>
+                        <li>
+                           Non-deterministic scheduling that adapts to reality
+                        </li>
+                        <li>
+                           Unified platform for schedule, cost, and earned value
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="user-benefits">
+                     <strong>Key Benefits:</strong> Efficiency gains, accuracy
+                     improvement, adaptive planning, enhanced skills
+                  </div>
+               </div>
+
+               <div class="user-benefit-card">
+                  <div class="user-icon">🏗️</div>
+                  <h3 class="user-title">Field Operations</h3>
+                  <div class="user-roles">
+                     Foremen, Superintendents, Workers
+                  </div>
+                  <div class="user-capabilities">
+                     <strong>What They Can Do:</strong>
+                     <ul>
+                        <li>Mobile access to real-time project data</li>
+                        <li>
+                           Daily guidance with power generation safety protocols
+                        </li>
+                        <li>Real-time progress reporting and coordination</li>
+                        <li>
+                           Skill development tracking and career advancement
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="user-benefits">
+                     <strong>Key Benefits:</strong> Clear direction, safety
+                     enhancement, productivity improvement, career growth
+                  </div>
+               </div>
+
+               <div class="user-benefit-card">
+                  <div class="user-icon">💼</div>
+                  <h3 class="user-title">Support Functions</h3>
+                  <div class="user-roles">IT, HR, Legal/Compliance</div>
+                  <div class="user-capabilities">
+                     <strong>What They Can Do:</strong>
+                     <ul>
+                        <li>Digital transformation with single code base</li>
+                        <li>Resource forecasting and workforce planning</li>
+                        <li>
+                           Comprehensive audit trails and compliance automation
+                        </li>
+                        <li>Dispute prevention and legal protection</li>
+                     </ul>
+                  </div>
+                  <div class="user-benefits">
+                     <strong>Key Benefits:</strong> 4:1 ROI demonstration,
+                     reduced IT complexity, automated compliance
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section pt-0">
+         <div class="container">
+            <h2 class="section-title">
+               Revolutionary Power Generation Technology
+            </h2>
+            <p class="section-subtitle">
+               Six breakthrough capabilities that make PowerScript the
+               industry's most advanced power generation construction platform
+            </p>
+
+            <div class="user-benefits-grid">
+               <div class="tech-card">
+                  <div class="tech-icon">🤖</div>
+                  <h3 class="tech-title">50% Process Automation</h3>
+                  <p class="tech-description">
+                     Industry's only construction software that automates 50% of
+                     power generation management processes. Patent-pending
+                     algorithms eliminate manual work and human errors in
+                     critical power plant workflows.
+                  </p>
+               </div>
+
+               <div class="tech-card">
+                  <div class="tech-icon">🧩</div>
+                  <h3 class="tech-title">Patent-Pending BuildingBlocks</h3>
+                  <p class="tech-description">
+                     Create power plant projects in 10% of the time using
+                     revolutionary BuildingBlocks. Complex power generation
+                     projects built with clicks instead of weeks of planning
+                     effort.
+                  </p>
+               </div>
+
+               <div class="tech-card">
+                  <div class="tech-icon">⚡</div>
+                  <h3 class="tech-title">Non-Deterministic Scheduling</h3>
+                  <p class="tech-description">
+                     Only adaptive scheduling system that handles power
+                     construction's unpredictable changes. Unlike rigid CPM
+                     systems, dynamically adjusts to power generation realities.
+                  </p>
+               </div>
+
+               <div class="tech-card">
+                  <div class="tech-icon">🔄</div>
+                  <h3 class="tech-title">Real-Time Integration</h3>
+                  <p class="tech-description">
+                     Solve the industry's biggest challenge: seamless safety,
+                     quality, schedule, and cost integration in real-time for
+                     power generation projects. No more separate systems.
+                  </p>
+               </div>
+
+               <div class="tech-card">
+                  <div class="tech-icon">🎯</div>
+                  <h3 class="tech-title">AI-Driven Resource Allocation</h3>
+                  <p class="tech-description">
+                     Automated daily resource allocation eliminates bias and
+                     maximizes power generation productivity. Perfect
+                     worker-to-task matching based on power plant skills and
+                     safety requirements.
+                  </p>
+               </div>
+
+               <div class="tech-card">
+                  <div class="tech-icon">📊</div>
+                  <h3 class="tech-title">100x Data Processing</h3>
+                  <p class="tech-description">
+                     Process 100x more data than any construction software.
+                     Daily AI intelligence from comprehensive power generation
+                     input, processing, and output capabilities.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="stats-section text-center py-5">
+         <div class="container">
+            <h1 class="hero-title mb-1">
+               Why Power Generation Contractors Choose PowerScript
+            </h1>
+            <p class="hero-subtitle mb-2">
+               Purpose-built software delivers measurable results for<br />
+               critical infrastructure projects
+            </p>
+            <div class="stats-grid">
+               <div class="stat-card">
+                  <div class="stat-number">50%</div>
+                  <div class="stat-label">Reduction in Safety Incidents</div>
+               </div>
+               <div class="stat-card">
+                  <div class="stat-number">75%</div>
+                  <div class="stat-label">Faster Milestone Achievement</div>
+               </div>
+               <div class="stat-card">
+                  <div class="stat-number">90%</div>
+                  <div class="stat-label">Quality Standards Compliance</div>
+               </div>
+               <div class="stat-card">
+                  <div class="stat-number">100%</div>
+                  <div class="stat-label">Power Generation Focus</div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section">
+         <div class="container">
+            <h2 class="section-title">
+               PowerScript Serves the Full Power Generation Industry
+            </h2>
+            <p class="section-subtitle">
+               From major contractors to utility construction divisions,
+               PowerScript delivers value across the entire power generation
+               ecosystem
+            </p>
+            <div class="market-grid">
+               <div class="market-card">
+                  <h3 class="market-title">Power Generation Contractors</h3>
+                  <ul class="market-list">
+                     <li>
+                        Projects: Power plants, major substations, renewable
+                        facilities
+                     </li>
+                     <li>
+                        Specializations: Coal, natural gas, nuclear, solar, wind
+                        generation
+                     </li>
+                     <li>
+                        Key Challenges: Multi-hazard safety management,
+                        milestone coordination
+                     </li>
+                     <li>
+                        Pain Points: Complex quality standards, regulatory
+                        compliance
+                     </li>
+                     <li>
+                        Decision Makers: VP Operations, Project Directors,
+                        Safety Directors
+                     </li>
+                     <li>
+                        Geographic Scope: National and international operations
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="market-card">
+                  <h3 class="market-title">Utility Construction Divisions</h3>
+                  <ul class="market-list">
+                     <li>
+                        Projects: Substation construction, distribution
+                        upgrades, grid modernization
+                     </li>
+                     <li>
+                        Focus Areas: Transmission infrastructure, smart grid
+                        deployment
+                     </li>
+                     <li>
+                        Key Challenges: Grid integration, utility coordination
+                     </li>
+                     <li>
+                        Pain Points: Internal project coordination, regulatory
+                        reporting
+                     </li>
+                     <li>
+                        Decision Makers: Construction Managers, Engineering
+                        Directors
+                     </li>
+                     <li>
+                        Requirements: Utility-specific standards and protocols
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="brand-architecture">
+         <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem">
+            Brand Architecture
+         </h2>
+         <p style="font-size: 1.2rem; opacity: 0.9; margin-bottom: 2rem">
+            PowerScript joins the Growtech Partners family of specialized
+            construction management platforms
+         </p>
+
+         <div class="brand-tree">
+            <p class="parent lead mb-4">
+               Growtech Partners - <span>Parent Company</span>
+            </p>
+            <div class="row">
+               <div class="mb-3 col-lg-6">
+                  <p class="product lead fw-bold mb-1">ProjectScript</p>
+                  <p class="mb-2 parentcolor fst-italic">
+                     General Construction
+                  </p>
+                  <p>
+                     <small
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequatur, sint!</small
+                     >
+                  </p>
+               </div>
+
+               <div class="mb-3 col-lg-6">
+                  <p class="product lead fw-bold mb-1">RoadScript</p>
+                  <p class="mb-2 parentcolor fst-italic">
+                     Roads &amp; Highways
+                  </p>
+                  <p>
+                     <small
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequatur, sint!</small
+                     >
+                  </p>
+               </div>
+               <div class="mb-3 col-lg-6">
+                  <p class="product lead fw-bold mb-1">LineScript</p>
+                  <p class="mb-2 parentcolor fst-italic">Transmission Lines</p>
+                  <p>
+                     <small
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequatur, sint!</small
+                     >
+                  </p>
+               </div>
+
+               <div class="mb-3 col-lg-6">
+                  <p class="product lead fw-bold mb-1">EnergyScript</p>
+                  <p class="mb-2 parentcolor fst-italic">
+                     Oil &amp; Gas Facilities
+                  </p>
+                  <p>
+                     <small
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequatur, sint!</small
+                     >
+                  </p>
+               </div>
+               <div class="mb-3 col-lg-6">
+                  <p class="product lead fw-bold mb-1">PowerScript</p>
+                  <p class="mb-2 parentcolor fst-italic">Power Generation</p>
+                  <p>
+                     <small
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequatur, sint!</small
+                     >
+                  </p>
+               </div>
+               <div class="mb-3 col-lg-6">
+                  <p class="product lead fw-bold mb-1">NEW</p>
+                  <p class="mb-2 parentcolor fst-italic">
+                     Future Specialized Products
+                  </p>
+                  <p>
+                     <small
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Consequatur, sint!</small
+                     >
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <section class="cta-section">
+         <h2 class="cta-title">
+            Stop Settling for Generic Software That Doesn't Get It
+         </h2>
+         <p class="cta-subtitle">
+            Your power plants deserve better than office building software.
+            PowerScript understands turbines, transformers, and the stakes of
+            getting it right.
+         </p>
+
+         <div class="cta-buttons">
+            <a href="tel:+13465443100" class="cta-button"
+               >📞 Call +1 (346) 544-3100</a
+            >
+            <a
+               href="mailto:cyriac.abraham@growtechpartners.com"
+               class="cta-button secondary"
+               >📧 Schedule Personal Demo</a
+            >
+         </div>
+         <p style="margin-top: 30px; opacity: 0.9">
+            Join companies already saving millions • 100% ROI guarantee •
+            48-hour implementation
+         </p>
+      </section>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="footer-section col-lg-3">
+                  <h4>Solutions</h4>
+                  <div class="d-flex">
+                     <ul>
+                        <li><a href="#">General Construction</a></li>
+                        <li><a href="#">Buildings </a></li>
+                        <li><a href="#">Roads & Highways </a></li>
+                        <li><a href="#">Railways</a></li>
+                        <li><a href="#">Pipelines</a></li>
+                        <li><a href="#">Electrical Grids</a></li>
+                     </ul>
+                     <ul class="ps-5">
+                        <li><a href="#">Power Plants</a></li>
+                        <li><a href="#">Power Generation</a></li>
+                        <li><a href="#">Renewable Energy</a></li>
+                        <li><a href="#">Solar Farms</a></li>
+                        <li><a href="#"> Oil & Gas</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="footer-section col-lg-3">
+                  <h4>Users</h4>
+                  <ul>
+                     <li><a href="user.html#executive">Exceutives</a></li>
+                     <li>
+                        <a href="user.html#technology">Innovation Leaders</a>
+                     </li>
+                     <li><a href="user.html#management">Managers</a></li>
+                     <li><a href="use.html#field">Field Operations</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section col-lg-2">
+                  <h4>Company</h4>
+                  <ul>
+                     <li><a href="#about">About Us</a></li>
+                     <li><a href="#team">Team</a></li>
+                     <li><a href="#patents">Patents</a></li>
+                     <li><a href="#careers">Careers</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section col-lg-4">
+                  <h4>Contact</h4>
+                  <p><strong>Cyriac Abraham</strong><br />Founder & CEO</p>
+                  <p>📞 +1 (346) 544-3100</p>
+                  <p>📧 cyriac.abraham@growtechpartners.com</p>
+                  <p>
+                     📍 1400 Broadfield Blvd, Suite200<br />Houston, TX 77084,
+                     USA
+                  </p>
+               </div>
+            </div>
+
+            <div class="footer-bottom">
+               <div class="footer-logos">
+                  <div class="logo-ps">
+                     <img src="images/logo.png" alt="logo" class="img-fluid" />
+                  </div>
+                  <div class="logo-growtech">
+                     <img
+                        src="images/logo-growtech.svg"
+                        alt="logo"
+                        class="img-fluid"
+                     />
+                  </div>
+               </div>
+               <div>
+                  <p class="mb-0">
+                     <small>
+                        &copy; 2025 Growtech Partners Inc. All Rights
+                        Reserved.</small
+                     >
+                  </p>
+                  <p style="font-style: italic">
+                     <small> Together We Grow Through Technology®</small>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script
+         src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQSwL3FJpWx7uG4lG+XLzM6YV1Yv4="
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+      <script src="js/main.js"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+   </body>
+</html>
