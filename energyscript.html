@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>ProjectScript</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+               <a class="navbar-brand" href="index.html">
+                  <div class="log">
+                     <img src="images/logo.png" alt="logo" />
+                  </div>
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link active dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Solutions
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >General & Building Construction
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >General Construction</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Buildings</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Infrastructure Projects</a
+                              >
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#">
+                                       Roads & Highways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Railways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Pipelines</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Electrical Grids</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Energy & Utilities
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Power Plants</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Power Generation</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Renewable Energy</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Solar Farms</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Industrial & Oil & Gas
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Oil & Gas</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="features.html">Features</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Users
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#executive"
+                                 >Executives</a
+                              >
+                           </li>
+                           <!-- <li>
+                              <a class="dropdown-item" href="#"
+                                 >Project Managers</a
+                              >
+                           </li> -->
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#technology"
+                                 >Innovation Leaders</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#management"
+                                 >Managers</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="users.html#field"
+                                 >Field Operations</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <!-- <li class="nav-item">
+                        <a class="nav-link" href="benefits.html">Benefits</a>
+                     </li> -->
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Benefits
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#costreduction"
+                                 >Cost Reduction</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#Scalablegrowth"
+                                 >Scalable Growth</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#clientsuccess"
+                                 >Client Success</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#affordability"
+                                 >Affordability</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="why-projectscript.html"
+                           >Why ProjectScript</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <button class="btn btn-gradient" type="submit">
+                        Start Free Trial
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- nav end -->
+      <div class="inner-header benefit-header mb-0">
+         <div class="container">
+            <h1 class="hero-title">
+               The First Software Built for <br />Energy Facilities
+            </h1>
+            <p class="hero-subtitle">
+               Stop using generic construction software for oil & gas
+               facilities. EnergyScript is
+               <strong>purpose-engineered for energy contractors</strong> with
+               hazardous area safety, process plant coordination, turnaround
+               management, and specialized resource coordination.
+            </p>
+            <div
+               class="bg-light-backdrops p-4 text-center my-4 mx-auto"
+               style="width: 65%"
+            >
+               <p class="fw-bold lead">Introducing EnergyScript</p>
+               <p>
+                  The first construction project management platform built
+                  specifically for oil & gas facility contractors and energy
+                  infrastructure projects.
+               </p>
+               <div
+                  class="energy-feature-btn d-flex flex-column align-items-center mt-3"
+               >
+                  <div class="mb-2">
+                     <button href="#" class="nav-button d-flex">
+                        Built Exclusively for Oil & Gas Facilities Construction
+                     </button>
+                  </div>
+                  <div class="d-flex">
+                     <a href="#" class="nav-button m-1"> Refineries</a>
+                     <a href="#" class="nav-button m-1"> Petrochemicals</a>
+                     <a href="#" class="nav-button m-1"> LNG Terminals</a>
+                     <a href="#" class="nav-button m-1"> Processing Plants</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Main Content -->
+      <section class="audience-section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">
+                  Built for Energy Construction Leaders
+               </h2>
+               <p class="section-subtitle">
+                  Purpose-engineered for every oil & gas professional - from
+                  C-level executives to field workers. Each role gets
+                  specialized capabilities and measurable benefits.
+               </p>
+            </div>
+            <div class="features-grid">
+               <div class="audience-card">
+                  <div class="audience-icon">🌱</div>
+                  <h3 class="audience-title">CEOs: Competitive Advantage</h3>
+                  <p class="audience-description">
+                     Eliminate management overhead while boosting productivity.
+                     Join energy leaders achieving unprecedented efficiency with
+                     AI-powered automation for oil & gas facilities.
+                  </p>
+                  <div class="segment-metrics">
+                     <div class="segment-metric">
+                        <div class="metric-number">9</div>
+                        <div class="metric-label">Patents Pending</div>
+                     </div>
+                     <div class="segment-metric">
+                        <div class="metric-number">100x</div>
+                        <div class="metric-label">Data Processing</div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="audience-card">
+                  <div class="audience-icon">🏢</div>
+                  <h3 class="audience-title">Project Managers: Efficiency</h3>
+                  <p class="audience-description">
+                     Real-time integration of safety, quality, schedule, and
+                     cost for energy facilities. Stop juggling multiple systems.
+                     Get complete oil & gas project visibility in one platform.
+                  </p>
+                  <div class="segment-metrics">
+                     <div class="segment-metric">
+                        <div class="metric-number">90%</div>
+                        <div class="metric-label">Less Planning</div>
+                     </div>
+                     <div class="segment-metric">
+                        <div class="metric-number">48hrs</div>
+                        <div class="metric-label">Implementation</div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="audience-card">
+                  <div class="audience-icon">⚡</div>
+                  <h3 class="audience-title">
+                     Innovation Leaders: Transformation
+                  </h3>
+                  <p class="audience-description">
+                     Built-for-AI architecture with 9 patents pending. Lead the
+                     energy industry with next-generation construction
+                     technology and facility project management.
+                  </p>
+                  <div class="segment-metrics">
+                     <div class="segment-metric">
+                        <div class="metric-number">289%</div>
+                        <div class="metric-label">Year 2 ROI</div>
+                     </div>
+                     <div class="segment-metric">
+                        <div class="metric-number">$11.7M</div>
+                        <div class="metric-label">Savings Potential</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="problem-section section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title text-white">
+                  Oil & Gas Facilities Have Unique Construction Challenges
+               </h2>
+               <p class="section-subtitle text-white">
+                  Generic construction software was built for buildings, not
+                  energy facilities with explosive atmospheres, process plant
+                  complexity, and turnaround coordination requirements
+               </p>
+            </div>
+
+            <div class="features-grid">
+               <div class="problem-card">
+                  <div class="problem-icon">💥</div>
+                  <h3 class="problem-title">Explosive Atmospheres</h3>
+                  <p class="problem-description">
+                     Oil & gas facilities involve hazardous areas with explosive
+                     atmospheres requiring specialized safety protocols, hot
+                     work permits, and worker protection procedures that generic
+                     software cannot manage.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">🏭</div>
+                  <h3 class="problem-title">Process Plant Complexity</h3>
+                  <p class="problem-description">
+                     Energy facilities require complex coordination of piping
+                     systems, instrumentation, control systems, and process
+                     equipment that generic construction software cannot handle
+                     effectively.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">🔄</div>
+                  <h3 class="problem-title">Turnarounds</h3>
+                  <p class="problem-description">
+                     Refinery and plant turnarounds involve complex shutdown
+                     coordination, specialized scheduling, and critical path
+                     management that generic software cannot optimize for energy
+                     facility maintenance.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">👷</div>
+                  <h3 class="problem-title">Specialized Trades Management</h3>
+                  <p class="problem-description">
+                     Energy construction requires certified welders,
+                     pipefitters, instrumentation technicians, and specialized
+                     contractors that generic software cannot track and
+                     coordinate effectively.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">⚖️</div>
+                  <h3 class="problem-title">Energy Regulatory Compliance</h3>
+                  <p class="problem-description">
+                     Oil & gas projects involve complex EPA, OSHA, and
+                     industry-specific regulations requiring specialized
+                     workflows, documentation, and reporting that generic
+                     software cannot provide.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">📊</div>
+                  <h3 class="problem-title">Limited Energy Analytics</h3>
+                  <p class="problem-description">
+                     Generic software provides poor analytics for energy
+                     projects, missing facility-specific performance metrics,
+                     turnaround optimization data, and energy construction
+                     insights.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section construction-safety">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">
+                  EnergyScript: Built Exclusively for Oil & Gas Construction
+               </h2>
+               <p class="section-subtitle">
+                  The industry's first construction management platform
+                  engineered specifically for energy facility contractors and
+                  oil & gas infrastructure
+               </p>
+            </div>
+            <div class="solution-grid">
+               <div class="solution-card">
+                  <div class="solution-icon">📊</div>
+                  <h3 class="solution-title">
+                     Energy Facility <strong>Planning & Scheduling</strong>
+                  </h3>
+                  <p class="solution-description">
+                     Advanced <strong>CPM scheduling</strong> specialized for
+                     oil & gas facilities with
+                     <strong>process plant coordination</strong> and
+                     energy-specific workflows integrated with cost, schedule,
+                     safety, and quality management.
+                  </p>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>Energy facility creation</strong> in 10% of
+                        traditional time
+                     </li>
+                     <li>
+                        <strong>Process plant scheduling</strong> coordination
+                     </li>
+                     <li>
+                        Energy facility activity sequencing and resource
+                        planning
+                     </li>
+                     <li>
+                        <strong>Real-time progress tracking</strong> across
+                        facility systems
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">💰</div>
+                  <h3 class="solution-title">
+                     Energy Project <strong>Cost Control</strong>
+                  </h3>
+                  <p class="solution-description">
+                     Complete <strong>cost management</strong> for oil & gas
+                     infrastructure with accurate
+                     <strong
+                        >estimating, budgeting, tracking, and
+                        forecasting</strong
+                     >
+                     specialized for energy facility workflows and equipment.
+                  </p>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>Energy facility cost estimating</strong> and
+                        budgeting
+                     </li>
+                     <li>
+                        <strong>Real-time cost tracking</strong> and control
+                     </li>
+                     <li>
+                        <strong>Earned value management</strong> for energy
+                        projects
+                     </li>
+                     <li>
+                        <strong>Cost variance analysis</strong> and forecasting
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">👷</div>
+                  <h3 class="solution-title">
+                     Energy Facility <strong>Resource Management</strong>
+                  </h3>
+                  <p class="solution-description">
+                     <strong>AI-driven resource allocation</strong> for
+                     specialized trades, equipment, and materials with
+                     optimization for oil & gas facility
+                     <strong>productivity and efficiency</strong> across complex
+                     systems.
+                  </p>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>Specialized trades management</strong> and crew
+                        scheduling
+                     </li>
+                     <li>
+                        <strong>Energy equipment allocation</strong> and
+                        tracking
+                     </li>
+                     <li>
+                        <strong>Process plant material management</strong> and
+                        procurement
+                     </li>
+                     <li>
+                        <strong>Productivity monitoring</strong> and
+                        optimization
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">🛡️</div>
+                  <h3 class="solution-title">
+                     Hazardous Area <strong>Safety Management</strong>
+                  </h3>
+                  <p class="solution-description">
+                     <strong>Integrated safety management</strong> for oil & gas
+                     facilities with hazardous area protocols,
+                     <strong>hot work permits, and safety procedures</strong>
+                     for explosive atmosphere environments.
+                  </p>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>Hazardous area safety protocols</strong> and
+                        procedures
+                     </li>
+                     <li>
+                        <strong>Hot work permit management</strong> and tracking
+                     </li>
+                     <li>
+                        <strong>Safety incident management</strong> and
+                        reporting
+                     </li>
+                     <li>
+                        <strong>Worker certification tracking</strong> for
+                        energy facilities
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">🎯</div>
+                  <h3 class="solution-title">
+                     Energy Facility <strong>Quality Control</strong>
+                  </h3>
+                  <p class="solution-description">
+                     <strong>Quality management integrated</strong> at the
+                     activity level for energy projects with
+                     <strong
+                        >facility-specific quality standards and inspection
+                        workflows</strong
+                     >
+                     for oil & gas construction.
+                  </p>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>Quality planning</strong> and control processes
+                     </li>
+                     <li>
+                        <strong>Facility-specific inspection</strong> scheduling
+                     </li>
+                     <li>
+                        <strong>Quality documentation</strong> and reporting
+                     </li>
+                     <li><strong>Energy equipment quality</strong> tracking</li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">📱</div>
+                  <h3 class="solution-title">
+                     <strong>Real-time Energy Dashboards</strong>
+                  </h3>
+                  <p class="solution-description">
+                     <strong>Executive dashboards</strong> for CEOs and C-Level
+                     executives,
+                     <strong
+                        >Project Managers, and Construction Managers</strong
+                     >
+                     with real-time energy project data and facility performance
+                     metrics.
+                  </p>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>CEO and Executive dashboards</strong> with
+                        energy portfolio overview
+                     </li>
+                     <li>
+                        <strong>Project Manager dashboards</strong> with
+                        facility project status
+                     </li>
+                     <li>
+                        <strong>Construction Manager dashboards</strong> with
+                        energy field operations
+                     </li>
+                     <li>
+                        <strong>Real-time energy KPIs</strong> and performance
+                        metrics
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">🔄</div>
+                  <h3 class="solution-title">
+                     Turnaround <strong>Coordination</strong>
+                  </h3>
+                  <p class="solution-description">
+                     Specialized <strong>turnaround management</strong> for
+                     refinery and plant shutdowns with
+                     <strong
+                        >critical path optimization, shutdown
+                        coordination,</strong
+                     >
+                     and maintenance workflow management.
+                  </p>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>Turnaround planning</strong> and critical path
+                        management
+                     </li>
+                     <li>
+                        <strong>Shutdown coordination</strong> and sequencing
+                     </li>
+                     <li><strong>Maintenance workflow</strong> optimization</li>
+                     <li>
+                        <strong>Turnaround resource</strong> allocation and
+                        tracking
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">📋</div>
+                  <h3 class="solution-title">
+                     Energy Facility <strong>Document Control</strong>
+                  </h3>
+                  <p class="solution-description">
+                     Comprehensive
+                     <strong>document management system</strong> for energy
+                     projects with version control, compliance documentation,
+                     and <strong>regulatory filing capabilities</strong> for oil
+                     & gas construction requirements.
+                  </p>
+                  <ul class="solution-features">
+                     <li>
+                        <strong>Energy facility drawings</strong> and
+                        specification management
+                     </li>
+                     <li>
+                        <strong>Regulatory permit and compliance</strong>
+                        documentation
+                     </li>
+                     <li>
+                        <strong>Version control</strong> and document tracking
+                     </li>
+                     <li>
+                        <strong>Energy regulatory submission</strong> and filing
+                        management
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="safety-section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title text-white">
+                  $67.8B Renewable Energy Construction Market
+               </h2>
+               <p class="section-subtitle text-white">
+                  The fastest-growing construction segment driven by federal
+                  incentives, corporate commitments, and climate targets
+               </p>
+            </div>
+
+            <div class="features-grid">
+               <div class="safety-card">
+                  <div class="safety-icon">⚡</div>
+                  <h3 class="safety-title">Solar Construction</h3>
+                  <p>
+                     $32.1B market for utility-scale solar, distributed systems,
+                     and agrivoltaic projects with massive federal ITC support.
+                  </p>
+               </div>
+
+               <div class="safety-card">
+                  <div class="safety-icon">🛡️</div>
+                  <h3 class="safety-title">Wind Construction</h3>
+                  <p>
+                     $18.9B market for onshore, offshore, and wind repowering
+                     projects driven by PTC extensions and state mandates.
+                  </p>
+               </div>
+
+               <div class="safety-card">
+                  <div class="safety-icon">🎓</div>
+                  <h3 class="safety-title">Energy Storage</h3>
+                  <p>
+                     $9.4B market for grid-scale battery systems and energy
+                     storage integration with renewable projects.
+                  </p>
+               </div>
+
+               <div class="safety-card">
+                  <div class="safety-icon">🔍</div>
+                  <h3 class="safety-title">Hybrid Projects</h3>
+                  <p>
+                     $7.4B market for solar+storage, wind+storage, and
+                     multi-technology renewable energy combinations.
+                  </p>
+               </div>
+
+               <div class="safety-card">
+                  <div class="safety-icon">📋</div>
+                  <h3 class="safety-title">Corporate Procurement</h3>
+                  <p>
+                     Fortune 500 companies driving massive renewable procurement
+                     with 100% clean energy commitments.
+                  </p>
+               </div>
+
+               <div class="safety-card">
+                  <div class="safety-icon">🌿</div>
+                  <h3 class="safety-title">Market Growth</h3>
+                  <p>
+                     12.7% annual growth rate with $295B in planned renewable
+                     investments through 2030.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">
+                  Proven Clean Energy Construction Results
+               </h2>
+               <p class="section-subtitle">
+                  Real outcomes from renewable energy contractors using
+                  RenewScript
+               </p>
+            </div>
+            <div class="results-grid">
+               <div class="result-card">
+                  <div class="result-number">45%</div>
+                  <div class="result-label">Faster Project Coordination</div>
+               </div>
+               <div class="result-card">
+                  <div class="result-number">30%</div>
+                  <div class="result-label">Better Weather Optimization</div>
+               </div>
+               <div class="result-card">
+                  <div class="result-number">50%</div>
+                  <div class="result-label">Improved Grid Integration</div>
+               </div>
+               <div class="result-card">
+                  <div class="result-number">40%</div>
+                  <div class="result-label">
+                     Faster Environmental Compliance
+                  </div>
+               </div>
+               <div class="result-card">
+                  <div class="result-number">25%</div>
+                  <div class="result-label">Lower Carbon Footprint</div>
+               </div>
+               <div class="result-card">
+                  <div class="result-number">60%</div>
+                  <div class="result-label">Better Incentive Optimization</div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="cta-section">
+         <div class="container">
+            <h2 class="cta-title">
+               Stop Using Building Software for Energy Facilities
+            </h2>
+            <p class="cta-subtitle">
+               Your oil & gas facility projects deserve better than generic
+               construction software. EnergyScript understands energy challenges
+               and delivers the specialized tools you need.
+            </p>
+            <div class="cta-highlight my-5">
+               <h3>Exclusive Renewable Energy Contractor Offer</h3>
+               <p>
+                  <strong>90-Day FREE Trial</strong> + Complete Clean Energy
+                  Implementation
+               </p>
+               <p style="margin-top: 1rem">
+                  ✓ No setup costs • ✓ Multi-technology training • ✓
+                  Environmental compliance setup • ✓ Grid interconnection
+                  workflows
+               </p>
+            </div>
+            <div class="cta-buttons">
+               <a href="tel:+13465443100" class="cta-button"
+                  >📞 Call +1 (346) 544-3100</a
+               >
+               <a
+                  href="mailto:cyriac.abraham@growtechpartners.com"
+                  class="cta-button secondary"
+                  >📧 Schedule Personal Demo</a
+               >
+            </div>
+            <p style="margin-top: 30px; opacity: 0.9">
+               Exclusive pilot program for qualified renewable energy
+               contractors • Limited positions available
+            </p>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="footer-section col-lg-3">
+                  <h4>Solutions</h4>
+                  <div class="d-flex">
+                     <ul>
+                        <li><a href="#">General Construction</a></li>
+                        <li><a href="#">Buildings </a></li>
+                        <li><a href="#">Roads & Highways </a></li>
+                        <li><a href="#">Railways</a></li>
+                        <li><a href="#">Pipelines</a></li>
+                        <li><a href="#">Electrical Grids</a></li>
+                     </ul>
+                     <ul class="ps-5">
+                        <li><a href="#">Power Plants</a></li>
+                        <li><a href="#">Power Generation</a></li>
+                        <li><a href="#">Renewable Energy</a></li>
+                        <li><a href="#">Solar Farms</a></li>
+                        <li><a href="#"> Oil & Gas</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="footer-section col-lg-3">
+                  <h4>Users</h4>
+                  <ul>
+                     <li><a href="user.html#executive">Exceutives</a></li>
+                     <li>
+                        <a href="user.html#technology">Innovation Leaders</a>
+                     </li>
+                     <li><a href="user.html#management">Managers</a></li>
+                     <li><a href="use.html#field">Field Operations</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section col-lg-2">
+                  <h4>Company</h4>
+                  <ul>
+                     <li><a href="#about">About Us</a></li>
+                     <li><a href="#team">Team</a></li>
+                     <li><a href="#patents">Patents</a></li>
+                     <li><a href="#careers">Careers</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section col-lg-4">
+                  <h4>Contact</h4>
+                  <p><strong>Cyriac Abraham</strong><br />Founder & CEO</p>
+                  <p>📞 +1 (346) 544-3100</p>
+                  <p>📧 cyriac.abraham@growtechpartners.com</p>
+                  <p>
+                     📍 1400 Broadfield Blvd, Suite200<br />Houston, TX 77084,
+                     USA
+                  </p>
+               </div>
+            </div>
+
+            <div class="footer-bottom">
+               <div class="footer-logos">
+                  <div class="logo-ps">
+                     <img src="images/logo.png" alt="logo" class="img-fluid" />
+                  </div>
+                  <div class="logo-growtech">
+                     <img
+                        src="images/logo-growtech.svg"
+                        alt="logo"
+                        class="img-fluid"
+                     />
+                  </div>
+               </div>
+               <div>
+                  <p class="mb-0">
+                     <small>
+                        &copy; 2025 Growtech Partners Inc. All Rights
+                        Reserved.</small
+                     >
+                  </p>
+                  <p style="font-style: italic">
+                     <small> Together We Grow Through Technology®</small>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script
+         src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQSwL3FJpWx7uG4lG+XLzM6YV1Yv4="
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+      <script src="js/main.js"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+   </body>
+</html>

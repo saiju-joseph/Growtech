@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>ProjectScript</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+               <a class="navbar-brand" href="index.html">
+                  <div class="log">
+                     <img src="images/logo.png" alt="logo" />
+                  </div>
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link active dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Solutions
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >General & Building Construction
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >General Construction</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Buildings</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Infrastructure Projects</a
+                              >
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#">
+                                       Roads & Highways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Railways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Pipelines</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Electrical Grids</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Energy & Utilities
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Power Plants</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Power Generation</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Renewable Energy</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Solar Farms</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Industrial & Oil & Gas
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Oil & Gas</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="features.html">Features</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Users
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#executive"
+                                 >Executives</a
+                              >
+                           </li>
+                           <!-- <li>
+                              <a class="dropdown-item" href="#"
+                                 >Project Managers</a
+                              >
+                           </li> -->
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#technology"
+                                 >Innovation Leaders</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#management"
+                                 >Managers</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="users.html#field"
+                                 >Field Operations</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <!-- <li class="nav-item">
+                        <a class="nav-link" href="benefits.html">Benefits</a>
+                     </li> -->
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Benefits
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#costreduction"
+                                 >Cost Reduction</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#Scalablegrowth"
+                                 >Scalable Growth</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#clientsuccess"
+                                 >Client Success</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#affordability"
+                                 >Affordability</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="why-projectscript.html"
+                           >Why ProjectScript</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <button class="btn btn-gradient" type="submit">
+                        Start Free Trial
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- nav end -->
+      <div class="inner-header benefit-header mb-0">
+         <div class="container">
+            <h1 class="hero-title">
+               The First Software Built for <br />Solar Energy Projects
+            </h1>
+            <p class="hero-subtitle">
+               Stop using generic construction software for solar installations.
+               SolarScript is
+               <strong>purpose-engineered for solar contractors</strong> with
+               module installation optimization, inverter coordination, weather
+               intelligence, and solar-specific safety protocols.
+            </p>
+
+            <div class="hero-stats">
+               <div class="hero-stat">
+                  <div class="hero-stat-number">35%</div>
+                  <div class="hero-stat-label">Faster Module Installation</div>
+               </div>
+               <div class="hero-stat">
+                  <div class="hero-stat-number">40%</div>
+                  <div class="hero-stat-label">Better Weather Optimization</div>
+               </div>
+               <div class="hero-stat">
+                  <div class="hero-stat-number">50%</div>
+                  <div class="hero-stat-label">Improved Safety Compliance</div>
+               </div>
+               <div class="hero-stat">
+                  <div class="hero-stat-number">25</div>
+                  <div class="hero-stat-label">Year Performance Tracking</div>
+               </div>
+            </div>
+            <div class="hero-cta mt-5">
+               <a href="#solution" class="cta-button secondary"
+                  >See Solar Features</a
+               >
+            </div>
+         </div>
+      </div>
+      <!-- Main Content -->
+      <section class="section problem-section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title text-white">
+                  Solar Construction Has Unique Complexities
+               </h2>
+               <p class="section-subtitle text-white">
+                  Generic construction software was built for buildings, not
+                  utility-scale solar farms with weather dependencies,
+                  electrical complexity, and performance optimization
+                  requirements
+               </p>
+            </div>
+
+            <div class="features-grid">
+               <div class="problem-card">
+                  <div class="problem-icon">🤯</div>
+                  <h3 class="problem-title">
+                     Module Installation Optimization
+                  </h3>
+                  <p class="problem-description">
+                     Thousands of solar panels must be installed with precise
+                     positioning, optimal spacing, and correct orientation.
+                     Generic software has no understanding of panel layout
+                     optimization, installation sequencing, or solar-specific
+                     quality requirements.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">🏞️</div>
+                  <h3 class="problem-title">Electrical System Complexity</h3>
+                  <p class="problem-description">
+                     Solar farms require complex DC/AC electrical systems with
+                     string wiring, combiner boxes, inverters, and switchgear
+                     coordination. Generic software cannot handle high-voltage
+                     DC safety protocols or electrical testing workflows.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">🔥</div>
+                  <h3 class="problem-title">Weather & Irradiance Dependency</h3>
+                  <p class="problem-description">
+                     Solar installation timing depends on weather conditions,
+                     temperature ranges, and solar irradiance levels. Generic
+                     software has no understanding of optimal installation
+                     conditions or weather-dependent scheduling requirements.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">⚖️</div>
+                  <h3 class="problem-title">Racking & Foundation Systems</h3>
+                  <p class="problem-description">
+                     Solar racking systems, foundation designs, and tracker
+                     installations require specialized workflows and
+                     coordination. Generic software cannot handle the unique
+                     requirements of solar mounting systems and ground
+                     preparation.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">🌍</div>
+                  <h3 class="problem-title">Solar Safety Protocols</h3>
+                  <p class="problem-description">
+                     High-voltage DC electrical work requires specialized safety
+                     protocols including arc flash prevention, lockout/tagout
+                     procedures, and electrical hazard management that generic
+                     software cannot provide.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">🏗️</div>
+                  <h3 class="problem-title">Performance Commissioning</h3>
+                  <p class="problem-description">
+                     Solar systems require extensive testing, performance
+                     validation, and grid interconnection workflows. Generic
+                     software has no features for solar system commissioning,
+                     performance testing, or 25-year warranty documentation.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">🚨</div>
+                  <h3 class="problem-title">Agrivoltaics Integration</h3>
+                  <p class="problem-description">
+                     Solar+agriculture projects require coordination between
+                     agricultural operations and solar installation, with
+                     specialized workflows for crop protection and dual land use
+                     that no software addresses.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section construction-safety">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">
+                  SolarScript: Built Exclusively for Solar Construction
+               </h2>
+               <p class="section-subtitle">
+                  The industry's first construction management platform
+                  engineered specifically for solar contractors and renewable
+                  energy projects
+               </p>
+            </div>
+            <div class="solution-grid">
+               <div class="solution-card">
+                  <div class="solution-icon">☀️</div>
+                  <h3 class="solution-title">
+                     Module Installation Optimization
+                  </h3>
+                  <p class="solution-description">
+                     Advanced panel layout optimization with real-time tracking
+                     of installation progress, panel orientation verification,
+                     and quality control across massive solar arrays.
+                  </p>
+                  <ul class="solution-features">
+                     <li>Automated panel layout and spacing optimization</li>
+                     <li>Installation sequence planning and tracking</li>
+                     <li>
+                        Real-time panel orientation and spacing verification
+                     </li>
+                     <li>Quality control workflows and photo documentation</li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">⚡</div>
+                  <h3 class="solution-title">DC/AC System Coordination</h3>
+                  <p class="solution-description">
+                     Comprehensive electrical system management including string
+                     wiring, combiner boxes, inverters, and switchgear with
+                     integrated testing and commissioning workflows.
+                  </p>
+                  <ul class="solution-features">
+                     <li>String wiring and combiner box coordination</li>
+                     <li>Inverter installation and testing workflows</li>
+                     <li>High-voltage DC safety protocol integration</li>
+                     <li>Electrical system commissioning and validation</li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">🌤️</div>
+                  <h3 class="solution-title">
+                     Weather & Irradiance Intelligence
+                  </h3>
+                  <p class="solution-description">
+                     Solar-specific weather monitoring with automated schedule
+                     optimization for installation conditions, temperature
+                     requirements, and weather-dependent activities.
+                  </p>
+                  <ul class="solution-features">
+                     <li>Solar irradiance and weather monitoring</li>
+                     <li>Installation condition optimization</li>
+                     <li>Temperature-sensitive activity scheduling</li>
+                     <li>Weather delay prediction and crew notifications</li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">🏗️</div>
+                  <h3 class="solution-title">Racking System Management</h3>
+                  <p class="solution-description">
+                     Specialized tracking for foundation installation, mounting
+                     systems, and tracker coordination with automated workflows
+                     for solar-specific equipment.
+                  </p>
+                  <ul class="solution-features">
+                     <li>Foundation design and installation tracking</li>
+                     <li>Racking system assembly workflows</li>
+                     <li>Solar tracker installation and commissioning</li>
+                     <li>Specialized equipment coordination and maintenance</li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">🛡️</div>
+                  <h3 class="solution-title">Solar Safety Protocols</h3>
+                  <p class="solution-description">
+                     Built-in high-voltage DC safety management with arc flash
+                     prevention, electrical hazard protocols, and solar-specific
+                     safety training integration.
+                  </p>
+                  <ul class="solution-features">
+                     <li>High-voltage DC safety protocol enforcement</li>
+                     <li>Arc flash hazard prevention workflows</li>
+                     <li>Electrical lockout/tagout procedures</li>
+                     <li>Solar installer safety training tracking</li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">📊</div>
+                  <h3 class="solution-title">Performance Commissioning</h3>
+                  <p class="solution-description">
+                     Comprehensive system testing, performance validation, and
+                     grid interconnection with automated reporting for 25-year
+                     performance warranties.
+                  </p>
+                  <ul class="solution-features">
+                     <li>System performance testing and validation</li>
+                     <li>Grid interconnection workflow management</li>
+                     <li>25-year warranty documentation</li>
+                     <li>O&M handoff and performance analytics</li>
+                  </ul>
+               </div>
+
+               <div class="solution-card">
+                  <div class="solution-icon">🌱</div>
+                  <h3 class="solution-title">Agrivoltaics Integration</h3>
+                  <p class="solution-description">
+                     Specialized workflows for solar+agriculture projects
+                     including crop protection protocols, dual land use
+                     optimization, and agricultural coordination.
+                  </p>
+                  <ul class="solution-features">
+                     <li>Agricultural operation coordination</li>
+                     <li>Crop protection during installation</li>
+                     <li>Dual land use optimization</li>
+                     <li>Agrivoltaic performance monitoring</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="comparison-section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">
+                  SolarScript vs. Generic Construction Software
+               </h2>
+               <p class="section-subtitle">
+                  See why solar contractors choose purpose-built software over
+                  generic solutions
+               </p>
+            </div>
+
+            <div class="comparison-table">
+               <div class="comparisonheader text-center">
+                  <h3>Solar Construction Software Comparison</h3>
+                  <p>Built for buildings vs. Built for solar energy</p>
+               </div>
+               <div class="comparison-grid">
+                  <div class="comparison-column generic">
+                     <h4>❌ Generic Software (Procore, etc.)</h4>
+
+                     <div class="comparison-item generic">
+                        <h5>Module Management</h5>
+                        <p>
+                           Basic materials tracking with no understanding of
+                           panel layout optimization, installation sequencing,
+                           or solar-specific quality requirements.
+                        </p>
+                     </div>
+
+                     <div class="comparison-item generic">
+                        <h5>Electrical Systems</h5>
+                        <p>
+                           Generic electrical tracking with no high-voltage DC
+                           safety protocols or understanding of solar electrical
+                           complexity.
+                        </p>
+                     </div>
+
+                     <div class="comparison-item generic">
+                        <h5>Weather Integration</h5>
+                        <p>
+                           Basic weather alerts with no solar irradiance data or
+                           installation condition optimization capabilities.
+                        </p>
+                     </div>
+
+                     <div class="comparison-item generic">
+                        <h5>Safety Protocols</h5>
+                        <p>
+                           Standard construction safety with no high-voltage DC
+                           protocols or solar-specific hazard management.
+                        </p>
+                     </div>
+
+                     <div class="comparison-item generic">
+                        <h5>Performance Testing</h5>
+                        <p>
+                           Generic handoff processes with no solar system
+                           commissioning or 25-year performance validation
+                           workflows.
+                        </p>
+                     </div>
+
+                     <div class="comparison-item generic">
+                        <h5>Project Analytics</h5>
+                        <p>
+                           Building-focused metrics with no solar performance
+                           tracking or renewable energy project analytics.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="comparison-column solarscript">
+                     <h4>✅ SolarScript (Solar-Specific)</h4>
+
+                     <div class="comparison-item solarscript">
+                        <h5>Module Installation Optimization</h5>
+                        <p>
+                           Advanced panel layout optimization with real-time
+                           installation tracking, orientation verification, and
+                           solar-specific quality control.
+                        </p>
+                     </div>
+
+                     <div class="comparison-item solarscript">
+                        <h5>DC/AC System Coordination</h5>
+                        <p>
+                           Comprehensive electrical system management with
+                           high-voltage DC safety protocols and solar-specific
+                           testing workflows.
+                        </p>
+                     </div>
+
+                     <div class="comparison-item solarscript">
+                        <h5>Weather & Irradiance Intelligence</h5>
+                        <p>
+                           Solar-specific weather monitoring with irradiance
+                           data integration and installation condition
+                           optimization.
+                        </p>
+                     </div>
+
+                     <div class="comparison-item solarscript">
+                        <h5>Solar Safety Protocols</h5>
+                        <p>
+                           Built-in high-voltage DC safety management with arc
+                           flash prevention and solar installer safety training
+                           integration.
+                        </p>
+                     </div>
+
+                     <div class="comparison-item solarscript">
+                        <h5>Performance Commissioning</h5>
+                        <p>
+                           Comprehensive system testing, performance validation,
+                           and grid interconnection with 25-year warranty
+                           documentation.
+                        </p>
+                     </div>
+
+                     <div class="comparison-item solarscript">
+                        <h5>Solar Analytics</h5>
+                        <p>
+                           Solar-specific project analytics with performance
+                           tracking, renewable energy metrics, and agrivoltaic
+                           optimization.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div
+               style="
+                  text-align: center;
+                  margin-top: 3rem;
+                  padding: 2rem;
+                  background: rgba(14, 165, 233, 0.1);
+                  border-radius: 15px;
+               "
+            >
+               <h3 style="color: #0369a1; margin-bottom: 1rem">
+                  💬 What Solar Contractors Say
+               </h3>
+               <blockquote
+                  style="
+                     font-style: italic;
+                     font-size: 1.1rem;
+                     color: #374151;
+                     margin-bottom: 1rem;
+                  "
+               >
+                  "SolarScript is the first software that actually understands
+                  solar construction. The module installation optimization and
+                  weather intelligence have transformed how we manage
+                  utility-scale projects."
+               </blockquote>
+               <p style="color: #6b7280; font-weight: 600">
+                  — Solar EPC Project Manager, Major Renewable Energy Contractor
+               </p>
+            </div>
+         </div>
+      </section>
+      <section class="safety-section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title text-white">
+                  $32.1B Solar Construction Market
+               </h2>
+               <p class="section-subtitle text-white">
+                  The fastest-growing energy construction segment with
+                  unprecedented federal incentives and corporate procurement
+               </p>
+            </div>
+
+            <div class="features-grid">
+               <div class="safety-card">
+                  <div class="safety-icon">⚡</div>
+                  <h3 class="safety-title">Utility-Scale Solar</h3>
+                  <p>
+                     $21.4B market for large ground-mount installations over 1MW
+                     with complex grid interconnection requirements.
+                  </p>
+               </div>
+
+               <div class="safety-card">
+                  <div class="safety-icon">🛡️</div>
+                  <h3 class="safety-title">Commercial & Industrial</h3>
+                  <p>
+                     $6.8B market for rooftop and ground-mount systems
+                     (100kW-1MW) serving corporate solar procurement needs.
+                  </p>
+               </div>
+
+               <div class="safety-card">
+                  <div class="safety-icon">🎓</div>
+                  <h3 class="safety-title">Agrivoltaics</h3>
+                  <p>
+                     $1.3B emerging market for solar+agriculture combination
+                     projects requiring specialized dual land use coordination.
+                  </p>
+               </div>
+
+               <div class="safety-card">
+                  <div class="safety-icon">🔍</div>
+                  <h3 class="safety-title">Solar + Storage</h3>
+                  <p>
+                     40% of new solar includes battery storage, creating
+                     additional complexity for project coordination and system
+                     integration.
+                  </p>
+               </div>
+
+               <div class="safety-card">
+                  <div class="safety-icon">📋</div>
+                  <h3 class="safety-title">Federal Incentives</h3>
+                  <p>
+                     30% Investment Tax Credit through 2032 driving massive
+                     solar deployment and construction activity nationwide.
+                  </p>
+               </div>
+
+               <div class="safety-card">
+                  <div class="safety-icon">🌿</div>
+                  <h3 class="safety-title">Market Growth</h3>
+                  <p>
+                     15.4% annual growth rate making solar the fastest-growing
+                     energy construction segment with $185B planned investments.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="audience-section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">
+                  Built for Solar Construction Leaders
+               </h2>
+               <p class="section-subtitle">
+                  Purpose-engineered for the professionals who build America's
+                  renewable energy infrastructure
+               </p>
+            </div>
+            <div class="features-grid">
+               <div class="audience-card">
+                  <div class="audience-icon">☀️</div>
+                  <h3 class="audience-title">Solar EPC Contractors</h3>
+                  <p class="audience-description">
+                     Engineering, Procurement, and Construction companies
+                     specializing in utility-scale solar farms and commercial
+                     solar installations. Need sophisticated module installation
+                     optimization and electrical system coordination.
+                  </p>
+               </div>
+
+               <div class="audience-card">
+                  <div class="audience-icon">🏢</div>
+                  <h3 class="audience-title">Solar Developers & IPPs</h3>
+                  <p class="audience-description">
+                     Solar development companies and independent power producers
+                     managing multi-project portfolios. Need construction
+                     oversight and performance optimization across development
+                     pipelines.
+                  </p>
+               </div>
+
+               <div class="audience-card">
+                  <div class="audience-icon">⚡</div>
+                  <h3 class="audience-title">Renewable Energy Companies</h3>
+                  <p class="audience-description">
+                     Energy companies with internal solar construction teams and
+                     renewable operations. Need integrated project management
+                     with seamless operational handoff and asset integration.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">Proven Solar Construction Results</h2>
+               <p class="section-subtitle">
+                  Real outcomes from solar contractors using SolarScript
+               </p>
+            </div>
+            <div class="results-grid">
+               <div class="result-card">
+                  <div class="result-number">35%</div>
+                  <div class="result-label">Faster Module Installation</div>
+               </div>
+               <div class="result-card">
+                  <div class="result-number">40%</div>
+                  <div class="result-label">Better Weather Optimization</div>
+               </div>
+               <div class="result-card">
+                  <div class="result-number">50%</div>
+                  <div class="result-label">Improved Safety Compliance</div>
+               </div>
+               <div class="result-card">
+                  <div class="result-number">45%</div>
+                  <div class="result-label">Faster Project Completion</div>
+               </div>
+               <div class="result-card">
+                  <div class="result-number">25%</div>
+                  <div class="result-label">Improved Installation Quality</div>
+               </div>
+               <div class="result-card">
+                  <div class="result-number">100%</div>
+                  <div class="result-label">Performance Validation</div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="cta-section">
+         <div class="container">
+            <h2 class="cta-title">Transform Your Solar Construction Today</h2>
+            <p class="cta-subtitle">
+               Join solar contractors who are completing projects faster and
+               more safely with purpose-built renewable energy software
+            </p>
+            <div class="cta-highlight my-5">
+               <h3>Exclusive Solar Contractor Offer</h3>
+               <p>
+                  <strong>90-Day FREE Trial</strong> + Complete Solar
+                  Implementation Setup
+               </p>
+               <p style="margin-top: 1rem">
+                  ✓ No setup costs • ✓ Solar-specific training • ✓ P Performance
+                  validation setup • ✓ Weather intelligence integration
+               </p>
+            </div>
+            <div class="cta-buttons">
+               <a href="tel:+13465443100" class="cta-button"
+                  >📞 Call +1 (346) 544-3100</a
+               >
+               <a
+                  href="mailto:cyriac.abraham@growtechpartners.com"
+                  class="cta-button secondary"
+                  >📧 Schedule Personal Demo</a
+               >
+            </div>
+            <p style="margin-top: 30px; opacity: 0.9">
+               Exclusive pilot program for qualified solar contractors • Limited
+               positions available
+            </p>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="footer-section col-lg-3">
+                  <h4>Solutions</h4>
+                  <div class="d-flex">
+                     <ul>
+                        <li><a href="#">General Construction</a></li>
+                        <li><a href="#">Buildings </a></li>
+                        <li><a href="#">Roads & Highways </a></li>
+                        <li><a href="#">Railways</a></li>
+                        <li><a href="#">Pipelines</a></li>
+                        <li><a href="#">Electrical Grids</a></li>
+                     </ul>
+                     <ul class="ps-5">
+                        <li><a href="#">Power Plants</a></li>
+                        <li><a href="#">Power Generation</a></li>
+                        <li><a href="#">Renewable Energy</a></li>
+                        <li><a href="#">Solar Farms</a></li>
+                        <li><a href="#"> Oil & Gas</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="footer-section col-lg-3">
+                  <h4>Users</h4>
+                  <ul>
+                     <li><a href="user.html#executive">Exceutives</a></li>
+                     <li>
+                        <a href="user.html#technology">Innovation Leaders</a>
+                     </li>
+                     <li><a href="user.html#management">Managers</a></li>
+                     <li><a href="use.html#field">Field Operations</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section col-lg-2">
+                  <h4>Company</h4>
+                  <ul>
+                     <li><a href="#about">About Us</a></li>
+                     <li><a href="#team">Team</a></li>
+                     <li><a href="#patents">Patents</a></li>
+                     <li><a href="#careers">Careers</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section col-lg-4">
+                  <h4>Contact</h4>
+                  <p><strong>Cyriac Abraham</strong><br />Founder & CEO</p>
+                  <p>📞 +1 (346) 544-3100</p>
+                  <p>📧 cyriac.abraham@growtechpartners.com</p>
+                  <p>
+                     📍 1400 Broadfield Blvd, Suite200<br />Houston, TX 77084,
+                     USA
+                  </p>
+               </div>
+            </div>
+
+            <div class="footer-bottom">
+               <div class="footer-logos">
+                  <div class="logo-ps">
+                     <img src="images/logo.png" alt="logo" class="img-fluid" />
+                  </div>
+                  <div class="logo-growtech">
+                     <img
+                        src="images/logo-growtech.svg"
+                        alt="logo"
+                        class="img-fluid"
+                     />
+                  </div>
+               </div>
+               <div>
+                  <p class="mb-0">
+                     <small>
+                        &copy; 2025 Growtech Partners Inc. All Rights
+                        Reserved.</small
+                     >
+                  </p>
+                  <p style="font-style: italic">
+                     <small> Together We Grow Through Technology®</small>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script
+         src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQSwL3FJpWx7uG4lG+XLzM6YV1Yv4="
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+      <script src="js/main.js"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+   </body>
+</html>
