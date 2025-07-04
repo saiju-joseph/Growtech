@@ -2293,6 +2293,103 @@ footer {
    color: #6b7280;
    font-weight: 500;
 }
+
+.comparison-section {
+   padding: 4rem 0;
+   background: #1f2937;
+   color: white;
+}
+
+.comparison-table {
+   background: rgba(255, 255, 255, 0.1);
+   padding: 2rem;
+   border-radius: 20px;
+   margin-top: 3rem;
+   overflow-x: auto;
+}
+
+.comparison-table table {
+   width: 100%;
+   color: white;
+   border-collapse: collapse;
+}
+
+.comparison-table th {
+   text-align: left;
+   padding: 1rem;
+   font-weight: 700;
+   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.comparison-table td {
+   padding: 1rem;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.comparison-table .feature-col {
+   color: #fbbf24;
+   font-weight: 600;
+}
+
+.comparison-table .energyscript-col {
+   color: #34d399;
+   text-align: center;
+}
+
+.comparison-table .others-col {
+   color: #d1d5db;
+   text-align: center;
+}
+
+.comparison-table .negative {
+   color: #fca5a5;
+}
+
+.comparison-table .partial {
+   color: #fbbf24;
+}
+
+.benefits-section {
+   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+   color: white;
+   padding: 100px 0;
+   text-align: center;
+}
+
+.roi-section {
+   background: #1f2937;
+   color: white;
+   padding: 80px 0;
+   text-align: center;
+}
+
+.roi-stats {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 2rem;
+   margin-top: 3rem;
+}
+
+.roi-stat {
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(10px);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 15px;
+   padding: 2rem;
+}
+
+.roi-number {
+   font-size: 2.5rem;
+   font-weight: 800;
+   color: #fbbf24;
+   margin-bottom: 0.5rem;
+}
+
+.roi-label {
+   font-size: 1rem;
+   opacity: 0.9;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
    .hero-title {
