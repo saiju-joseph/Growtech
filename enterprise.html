@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>ProjectScript</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+               <a class="navbar-brand" href="index.html">
+                  <div class="log">
+                     <img src="images/logo.png" alt="logo" />
+                  </div>
+               </a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link active dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Solutions
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >General & Building Construction
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >General Construction</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Buildings</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Infrastructure Projects</a
+                              >
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a
+                                       class="dropdown-item"
+                                       href="roadscript.html"
+                                    >
+                                       Roads & Highways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a
+                                       class="dropdown-item"
+                                       href="linescript.html"
+                                       >Railways</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a
+                                       class="dropdown-item"
+                                       href="pipescript.html"
+                                       >Pipelines</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Electrical Grids</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Energy & Utilities
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a
+                                       class="dropdown-item"
+                                       href="energyscript.html"
+                                       >Power Plants</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a
+                                       class="dropdown-item"
+                                       href="power-generation.html"
+                                       >Power Generation</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a
+                                       class="dropdown-item"
+                                       href="renewscript.html"
+                                       >Renewable Energy</a
+                                    >
+                                 </li>
+                                 <li>
+                                    <a
+                                       class="dropdown-item"
+                                       href="solarscript.html"
+                                       >Solar Farms</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+
+                           <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#"
+                                 >Industrial & Oil & Gas
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <a class="dropdown-item" href="#"
+                                       >Oil & Gas</a
+                                    >
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="features.html">Features</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Users
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#executive"
+                                 >Executives</a
+                              >
+                           </li>
+                           <!-- <li>
+                              <a class="dropdown-item" href="#"
+                                 >Project Managers</a
+                              >
+                           </li> -->
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#technology"
+                                 >Innovation Leaders</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="users.html#management"
+                                 >Managers</a
+                              >
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="users.html#field"
+                                 >Field Operations</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <!-- <li class="nav-item">
+                        <a class="nav-link" href="benefits.html">Benefits</a>
+                     </li> -->
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Benefits
+                        </a>
+                        <ul
+                           class="dropdown-menu"
+                           aria-labelledby="navbarDropdown"
+                        >
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#costreduction"
+                                 >Cost Reduction</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#Scalablegrowth"
+                                 >Scalable Growth</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#clientsuccess"
+                                 >Client Success</a
+                              >
+                           </li>
+                           <li>
+                              <a
+                                 class="dropdown-item"
+                                 href="benefits.html#affordability"
+                                 >Affordability</a
+                              >
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="why-projectscript.html"
+                           >Why ProjectScript</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <button class="btn btn-gradient" type="submit">
+                        Start Free Trial
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- nav end -->
+      <div class="inner-header benefit-header mb-0">
+         <div class="container">
+            <h1 class="hero-title">
+               Multi-Sector Portfolio<br />
+               Management
+            </h1>
+            <p class="hero-subtitle">
+               Built for $50M+ contractors and fast-growing companies aspiring
+               to enterprise scale. Manage diverse project portfolios with
+               unprecedented visibility and control.
+            </p>
+
+            <div class="hero-cta mt-5">
+               <a href="#" class="cta-button secondary">See ROI Calculator</a>
+            </div>
+         </div>
+      </div>
+      <!-- Main Content -->
+      <section class="section" id="features">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">Enterprise-Grade Features</h2>
+               <p class="section-subtitle">
+                  Comprehensive tools designed for large-scale construction
+                  operations
+               </p>
+            </div>
+            <div class="features-grid">
+               <div class="feature-card">
+                  <div class="feature-icon">🎯</div>
+                  <h3 class="feature-title">Portfolio Intelligence</h3>
+                  <p class="feature-description">
+                     Real-time dashboards providing executive visibility across
+                     all projects, sectors, and performance metrics in one
+                     unified platform.
+                  </p>
+               </div>
+
+               <div class="feature-card">
+                  <div class="feature-icon">🧱</div>
+                  <h3 class="feature-title">BuildingBlocks™ Technology</h3>
+                  <p class="feature-description">
+                     Patent-pending technology creating complex projects in 10%
+                     of traditional time. Revolutionary project setup
+                     automation.
+                  </p>
+               </div>
+
+               <div class="feature-card">
+                  <div class="feature-icon">🤖</div>
+                  <h3 class="feature-title">AI-Powered Optimization</h3>
+                  <p class="feature-description">
+                     Machine learning algorithms optimize resource allocation,
+                     predict project risks, and recommend portfolio-level
+                     improvements.
+                  </p>
+               </div>
+
+               <div class="feature-card">
+                  <div class="feature-icon">📊</div>
+                  <h3 class="feature-title">Real-Time Analytics</h3>
+                  <p class="feature-description">
+                     Live integration of safety, quality, schedule, and cost
+                     data across all project types and locations.
+                  </p>
+               </div>
+
+               <div class="feature-card">
+                  <div class="feature-icon">🔗</div>
+                  <h3 class="feature-title">Universal Integration</h3>
+                  <p class="feature-description">
+                     Seamless connectivity with ERP systems, accounting
+                     software, and industry-specific tools on a single platform.
+                  </p>
+               </div>
+
+               <div class="feature-card">
+                  <div class="feature-icon">⚡</div>
+                  <h3 class="feature-title">48-Hour Implementation</h3>
+                  <p class="feature-description">
+                     Fastest deployment in the industry with guaranteed setup,
+                     training, and go-live within 48 hours.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section section-alt" id="benefits">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">Measurable Business Impact</h2>
+               <p class="section-subtitle">
+                  Proven results for enterprise construction companies
+               </p>
+            </div>
+
+            <div class="benefits-grid">
+               <div class="benefit-card">
+                  <div class="benefit-number">25%</div>
+                  <h3 class="benefit-title">Cost Reduction</h3>
+                  <p class="benefit-description">
+                     Average project cost savings through improved efficiency,
+                     reduced rework, and optimized resource allocation.
+                  </p>
+               </div>
+
+               <div class="benefit-card">
+                  <div class="benefit-number">40%</div>
+                  <h3 class="benefit-title">Faster Delivery</h3>
+                  <p class="benefit-description">
+                     Reduced project completion times through streamlined
+                     workflows and proactive issue resolution.
+                  </p>
+               </div>
+
+               <div class="benefit-card">
+                  <div class="benefit-number">60%</div>
+                  <h3 class="benefit-title">Better Visibility</h3>
+                  <p class="benefit-description">
+                     Increase in executive oversight and decision-making speed
+                     with real-time portfolio dashboards.
+                  </p>
+               </div>
+
+               <div class="benefit-card">
+                  <div class="benefit-number">90%</div>
+                  <h3 class="benefit-title">Process Automation</h3>
+                  <p class="benefit-description">
+                     Reduction in manual administrative tasks through
+                     intelligent automation and workflow optimization.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section" id="users">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">Built for Enterprise Leaders</h2>
+               <p class="section-subtitle">
+                  Every stakeholder gets the tools and insights they need to
+                  excel
+               </p>
+            </div>
+
+            <div class="features-grid">
+               <div class="user-card">
+                  <div class="user-avatar">👑</div>
+                  <h3 class="user-role">CEOs & Presidents</h3>
+                  <p class="user-benefit">
+                     Strategic portfolio oversight, performance benchmarking,
+                     and growth planning with real-time executive dashboards.
+                  </p>
+               </div>
+
+               <div class="user-card">
+                  <div class="user-avatar">⚙️</div>
+                  <h3 class="user-role">Chief Operating Officers</h3>
+                  <p class="user-benefit">
+                     Operational efficiency optimization, resource allocation
+                     across divisions, and standardized processes
+                     enterprise-wide.
+                  </p>
+               </div>
+
+               <div class="user-card">
+                  <div class="user-avatar">📊</div>
+                  <h3 class="user-role">Portfolio Directors</h3>
+                  <p class="user-benefit">
+                     Cross-project coordination, portfolio-level reporting, and
+                     best practice sharing across all project types.
+                  </p>
+               </div>
+
+               <div class="user-card">
+                  <div class="user-avatar">🏗️</div>
+                  <h3 class="user-role">Division VPs</h3>
+                  <p class="user-benefit">
+                     Division performance tracking, integrated reporting to
+                     corporate, and seamless collaboration across business
+                     units.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="section problem-section">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title text-white">
+                  Why ProjectScript Enterprise?
+               </h2>
+               <p class="section-subtitle text-white">
+                  What makes us different from generic construction software
+               </p>
+            </div>
+
+            <div class="features-grid">
+               <div class="problem-card">
+                  <div class="problem-icon">⚡</div>
+                  <h3 class="problem-title">Enterprise-First Design</h3>
+                  <p class="problem-description">
+                     Built specifically for multi-sector portfolios vs.
+                     building-focused solutions that don't scale.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">🔌</div>
+                  <h3 class="problem-title">48-Hour Implementation</h3>
+                  <p class="problem-description">
+                     Guaranteed rapid deployment vs. 3-12 month implementations
+                     that delay ROI realization.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">⚖️</div>
+                  <h3 class="problem-title">AI-Native Architecture</h3>
+                  <p class="problem-description">
+                     Ground-up AI design vs. bolt-on features that don't
+                     integrate properly with legacy systems.
+                  </p>
+               </div>
+
+               <div class="problem-card">
+                  <div class="problem-icon">🏞️</div>
+                  <h3 class="problem-title">True Real-Time Integration</h3>
+                  <p class="problem-description">
+                     Live safety, quality, schedule, and cost integration vs.
+                     siloed systems that create data gaps.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section section-alt roi" id="roi">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-title">Proven Enterprise ROI</h2>
+               <p class="section-subtitle">
+                  ProjectScript Enterprise delivers measurable returns for
+                  large-scale operations
+               </p>
+            </div>
+
+            <div class="roi-stats">
+               <div class="roi-stat">
+                  <div class="roi-number">200%+</div>
+                  <div class="roi-label">Average ROI in Year 1</div>
+               </div>
+
+               <div class="roi-stat">
+                  <div class="roi-number">3-6</div>
+                  <div class="roi-label">Months to Payback</div>
+               </div>
+
+               <div class="roi-stat">
+                  <div class="roi-number">$2.3M</div>
+                  <div class="roi-label">Average Annual Savings</div>
+               </div>
+
+               <div class="roi-stat">
+                  <div class="roi-number">48hrs</div>
+                  <div class="roi-label">Implementation Time</div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="cta-section">
+         <div class="container">
+            <h2 class="cta-title">
+               Ready to Transform Your<br />
+               Portfolio Management?
+            </h2>
+            <p class="cta-subtitle">
+               Join the leading enterprise contractors who've revolutionized
+               their<br />
+               operations with ProjectScript Enterprise. Schedule your custom
+               demo today.
+            </p>
+            <div class="cta-highlight my-5">
+               <p style="margin-top: 1rem">
+                  ✓ No-cost implementation • ✓ 48-hour setup • ✓ Guaranteed ROI
+                  ✓ Enterprise support
+               </p>
+            </div>
+            <div class="cta-buttons">
+               <a href="tel:+13465443100" class="cta-button"
+                  >📞 Call +1 (346) 544-3100</a
+               >
+               <a
+                  href="mailto:cyriac.abraham@growtechpartners.com"
+                  class="cta-button secondary"
+                  >📧 Schedule Personal Demo</a
+               >
+            </div>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="footer-section col-lg-3">
+                  <h4>Solutions</h4>
+                  <div class="d-flex">
+                     <ul>
+                        <li><a href="#">General Construction</a></li>
+                        <li><a href="#">Buildings </a></li>
+                        <li><a href="#">Roads & Highways </a></li>
+                        <li><a href="#">Railways</a></li>
+                        <li><a href="#">Pipelines</a></li>
+                        <li><a href="#">Electrical Grids</a></li>
+                     </ul>
+                     <ul class="ps-5">
+                        <li><a href="#">Power Plants</a></li>
+                        <li><a href="#">Power Generation</a></li>
+                        <li><a href="#">Renewable Energy</a></li>
+                        <li><a href="#">Solar Farms</a></li>
+                        <li><a href="#"> Oil & Gas</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="footer-section col-lg-3">
+                  <h4>Users</h4>
+                  <ul>
+                     <li><a href="user.html#executive">Executives</a></li>
+                     <li>
+                        <a href="user.html#technology">Innovation Leaders</a>
+                     </li>
+                     <li><a href="user.html#management">Managers</a></li>
+                     <li><a href="use.html#field">Field Operations</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section col-lg-2">
+                  <h4>Company</h4>
+                  <ul>
+                     <li><a href="#about">About Us</a></li>
+                     <li><a href="#team">Team</a></li>
+                     <li><a href="#patents">Patents</a></li>
+                     <li><a href="#careers">Careers</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-section col-lg-4">
+                  <h4>Contact</h4>
+                  <p><strong>Cyriac Abraham</strong><br />Founder & CEO</p>
+                  <p>📞 +1 (346) 544-3100</p>
+                  <p>📧 cyriac.abraham@growtechpartners.com</p>
+                  <p>
+                     📍 1400 Broadfield Blvd, Suite200<br />Houston, TX 77084,
+                     USA
+                  </p>
+               </div>
+            </div>
+
+            <div class="footer-bottom">
+               <div class="footer-logos">
+                  <div class="logo-ps">
+                     <img src="images/logo.png" alt="logo" class="img-fluid" />
+                  </div>
+                  <div class="logo-growtech">
+                     <img
+                        src="images/logo-growtech.svg"
+                        alt="logo"
+                        class="img-fluid"
+                     />
+                  </div>
+               </div>
+               <div>
+                  <p class="mb-0">
+                     <small>
+                        &copy; 2025 Growtech Partners Inc. All Rights
+                        Reserved.</small
+                     >
+                  </p>
+                  <p style="font-style: italic">
+                     <small> Together We Grow Through Technology®</small>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script
+         src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+         integrity="sha256-H+K7U5CnXl1h5ywQSwL3FJpWx7uG4lG+XLzM6YV1Yv4="
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+      <script src="js/main.js"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+   </body>
+</html>
