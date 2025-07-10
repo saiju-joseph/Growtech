@@ -45,6 +45,10 @@ h6 {
    text-align: center;
 }
 
+.bg-light-blue {
+   background: #f8fafc;
+}
+
 .bg-sky-gradient {
    background: linear-gradient(135deg, #0ea5e9, #0284c7);
    color: white;
@@ -643,7 +647,7 @@ footer {
    display: flex;
    justify-content: center;
    gap: 1rem;
-   margin: 3rem 0;
+   margin: 3rem 10rem;
    flex-wrap: wrap;
 }
 
