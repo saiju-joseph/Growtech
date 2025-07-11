@@ -652,7 +652,7 @@ footer {
          rgba(102, 126, 234, 0.9),
          rgba(118, 75, 162, 0.7)
       ),
-      url('/images/roads-bridges.jpg');
+      url('../images/roads-bridges.jpg');
 }
 
 .pipescript-bg-banner {
@@ -661,7 +661,7 @@ footer {
          rgba(102, 126, 234, 0.9),
          rgba(118, 75, 162, 0.7)
       ),
-      url('/images/pipescript-bg.jpg');
+      url('../images/pipescript-bg.jpg');
 }
 
 .solarscript-bg-banner {
@@ -670,7 +670,7 @@ footer {
          rgba(102, 126, 234, 0.9),
          rgba(118, 75, 162, 0.7)
       ),
-      url('/images/solarscript-bg.jpg');
+      url('../images/solarscript-bg.jpg');
 }
 
 .features-bg {
@@ -679,7 +679,7 @@ footer {
          rgba(102, 126, 234, 0.9),
          rgba(118, 75, 162, 0.7)
       ),
-      url('/images/features-bg.jpg');
+      url('../images/features-bg.jpg');
 }
 
 .users-bg-banner {
@@ -688,7 +688,7 @@ footer {
          rgba(102, 126, 234, 0.9),
          rgba(118, 75, 162, 0.7)
       ),
-      url('/images/users-bg.jpg');
+      url('../images/users-bg.jpg');
 }
 
 .grid-script-banner {
@@ -697,7 +697,7 @@ footer {
          rgba(102, 126, 234, 0.9),
          rgba(118, 75, 162, 0.7)
       ),
-      url('/images/grid-script-bg.jpg');
+      url('../images/grid-script-bg.jpg');
 }
 
 .resources-bg-banner {
@@ -706,7 +706,7 @@ footer {
          rgba(102, 126, 234, 0.9),
          rgba(118, 75, 162, 0.7)
       ),
-      url('/images/resources-bg.jpg');
+      url('../images/resources-bg.jpg');
 }
 
 .energy-bg-banner {
@@ -715,7 +715,7 @@ footer {
          rgba(102, 126, 234, 0.9),
          rgba(118, 75, 162, 0.7)
       ),
-      url('/images/oil-gas-bg.jpg');
+      url('../images/oil-gas-bg.jpg');
 }
 
 .benefit-bg-banner {
@@ -724,7 +724,7 @@ footer {
          rgba(102, 126, 234, 0.9),
          rgba(118, 75, 162, 0.7)
       ),
-      url('/images/benefit-bg.jpg');
+      url('../images/benefit-bg.jpg');
 }
 
 .why-projectscript-bg {
@@ -733,7 +733,7 @@ footer {
          rgba(102, 126, 234, 0.9),
          rgba(118, 75, 162, 0.7)
       ),
-      url('/images/why-projectscript-bg.jpg');
+      url('../images/why-projectscript-bg.jpg');
 }
 /* features page */
 .feature-nav {
