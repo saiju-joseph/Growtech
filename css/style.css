@@ -641,6 +641,99 @@ footer {
    color: white;
    padding: 80px 0;
    text-align: center;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.roadscript-bg-banner {
+   background-image: linear-gradient(
+         135deg,
+         rgba(102, 126, 234, 0.9),
+         rgba(118, 75, 162, 0.7)
+      ),
+      url('/images/roads-bridges.jpg');
+}
+
+.pipescript-bg-banner {
+   background-image: linear-gradient(
+         135deg,
+         rgba(102, 126, 234, 0.9),
+         rgba(118, 75, 162, 0.7)
+      ),
+      url('/images/pipescript-bg.jpg');
+}
+
+.solarscript-bg-banner {
+   background-image: linear-gradient(
+         135deg,
+         rgba(102, 126, 234, 0.9),
+         rgba(118, 75, 162, 0.7)
+      ),
+      url('/images/solarscript-bg.jpg');
+}
+
+.features-bg {
+   background-image: linear-gradient(
+         135deg,
+         rgba(102, 126, 234, 0.9),
+         rgba(118, 75, 162, 0.7)
+      ),
+      url('/images/features-bg.jpg');
+}
+
+.users-bg-banner {
+   background-image: linear-gradient(
+         135deg,
+         rgba(102, 126, 234, 0.9),
+         rgba(118, 75, 162, 0.7)
+      ),
+      url('/images/users-bg.jpg');
+}
+
+.grid-script-banner {
+   background-image: linear-gradient(
+         135deg,
+         rgba(102, 126, 234, 0.9),
+         rgba(118, 75, 162, 0.7)
+      ),
+      url('/images/grid-script-bg.jpg');
+}
+
+.resources-bg-banner {
+   background-image: linear-gradient(
+         135deg,
+         rgba(102, 126, 234, 0.9),
+         rgba(118, 75, 162, 0.7)
+      ),
+      url('/images/resources-bg.jpg');
+}
+
+.energy-bg-banner {
+   background-image: linear-gradient(
+         135deg,
+         rgba(102, 126, 234, 0.9),
+         rgba(118, 75, 162, 0.7)
+      ),
+      url('/images/oil-gas-bg.jpg');
+}
+
+.benefit-bg-banner {
+   background-image: linear-gradient(
+         135deg,
+         rgba(102, 126, 234, 0.9),
+         rgba(118, 75, 162, 0.7)
+      ),
+      url('/images/benefit-bg.jpg');
+}
+
+.why-projectscript-bg {
+   background-image: linear-gradient(
+         135deg,
+         rgba(102, 126, 234, 0.9),
+         rgba(118, 75, 162, 0.7)
+      ),
+      url('/images/why-projectscript-bg.jpg');
 }
 /* features page */
 .feature-nav {
@@ -2740,6 +2833,40 @@ footer {
 .solar-specific h3 {
    color: #059669;
    margin-bottom: 1rem;
+}
+
+.railscript-section .solution-card {
+   background: #fff;
+}
+
+.advantage-card {
+   background: white;
+   padding: 2rem;
+   border-radius: 16px;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+   border-left: 4px solid #059669;
+   transition: all 0.3s ease;
+}
+
+.advantage-railscript {
+   color: #374151;
+   margin-bottom: 1rem;
+   font-weight: 600;
+}
+
+.advantage-others {
+   color: #6b7280;
+   font-size: 0.95rem;
+   font-weight: 500;
+}
+
+.advantage-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.railscript-comparison .comparison-row {
+   grid-template-columns: 2fr 2fr 1.5fr 1.5fr 1.5fr;
 }
 /* Mobile Responsive */
 @media (max-width: 768px) {
