@@ -50,7 +50,7 @@ h6 {
 }
 
 .bg-sky-gradient {
-   background: linear-gradient(135deg, #0ea5e9, #0284c7);
+   background: linear-gradient(135deg, #f4c542, #4caf50);
    color: white;
    text-align: center;
    padding: 80px 0;
@@ -428,7 +428,7 @@ h6 {
    max-width: 900px;
    margin: 0 auto 3rem;
    text-align: center;
-   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
 }
 
 .testimonial-text {
@@ -649,8 +649,8 @@ footer {
 .roadscript-bg-banner {
    background-image: linear-gradient(
          135deg,
-         rgba(102, 126, 234, 0.9),
-         rgba(118, 75, 162, 0.7)
+         rgba(44, 62, 80, 0.8),
+         rgba(255, 193, 7, 0.8)
       ),
       url('../images/roads-bridges.jpg');
 }
@@ -658,8 +658,8 @@ footer {
 .pipescript-bg-banner {
    background-image: linear-gradient(
          135deg,
-         rgba(102, 126, 234, 0.9),
-         rgba(118, 75, 162, 0.7)
+         rgba(25, 118, 210, 0.9),
+         rgba(0, 150, 136, 0.7)
       ),
       url('../images/pipescript-bg.jpg');
 }
@@ -667,10 +667,14 @@ footer {
 .renewscript-bg-banner {
    background-image: linear-gradient(
          135deg,
-         rgba(102, 126, 234, 0.9),
-         rgba(118, 75, 162, 0.7)
+         rgba(76, 175, 80, 0.8),
+         rgba(0, 174, 239, 0.7)
       ),
       url('../images/renewscript-bg.jpg');
+}
+
+.bg-gradient-dark {
+   background-color: rgba(33, 33, 33, 1);
 }
 
 .features-bg {
@@ -694,12 +698,20 @@ footer {
 .grid-script-banner {
    background-image: linear-gradient(
          135deg,
-         rgba(102, 126, 234, 0.9),
-         rgba(118, 75, 162, 0.7)
+         rgba(255, 179, 0, 0.8),
+         rgba(211, 47, 47, 0.7)
       ),
       url('../images/grid-script-bg.jpg');
 }
 
+.solarscript-bg-banner {
+   background: linear-gradient(
+         135deg,
+         rgb(244, 197, 66, 0.7),
+         rgb(76, 175, 80, 0.9)
+      ),
+      url('../images/solar-bg.jpg');
+}
 .resources-bg-banner {
    background-image: linear-gradient(
          135deg,
