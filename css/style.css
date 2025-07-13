@@ -661,7 +661,7 @@ footer {
          rgba(25, 118, 210, 0.9),
          rgba(0, 150, 136, 0.7)
       ),
-      url('../images/pipescript-bg.jpg');
+      url('../images/pipescript--bg.jpg');
 }
 
 .renewscript-bg-banner {
@@ -711,12 +711,14 @@ footer {
          rgb(76, 175, 80, 0.9)
       ),
       url('../images/solar-bg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .resources-bg-banner {
    background-image: linear-gradient(
          135deg,
-         rgba(102, 126, 234, 0.9),
-         rgba(118, 75, 162, 0.7)
+         rgba(28, 42, 57, 0.8),
+         rgba(245, 247, 250, 0.6)
       ),
       url('../images/resources-bg.jpg');
 }
@@ -733,8 +735,8 @@ footer {
 .benefit-bg-banner {
    background-image: linear-gradient(
          135deg,
-         rgba(102, 126, 234, 0.9),
-         rgba(118, 75, 162, 0.7)
+         rgba(13, 71, 161, 0.8),
+         rgba(67, 160, 71, 0.7)
       ),
       url('../images/benefit-bg.jpg');
 }
@@ -1250,9 +1252,10 @@ footer {
 
 .benefit-header {
    display: flex;
-   align-items: flex-start;
+   align-items: center;
    gap: 15px;
    margin-bottom: 15px;
+   min-height: 90vh;
 }
 
 .benefit-icon {
