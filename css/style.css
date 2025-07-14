@@ -644,6 +644,7 @@ footer {
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+   min-height: 90vh;
 }
 
 .roadscript-bg-banner {
@@ -758,7 +759,15 @@ footer {
       ),
       url('../images/rail-bg.jpg');
 }
-/* features page */
+
+.contactus-bg {
+   background-image: linear-gradient(
+         135deg,
+         rgba(67, 160, 71, 0.8),
+         rgba(25, 118, 210, 0.9)
+      ),
+      url('../images/contact-us-bg.jpg');
+}
 .feature-nav {
    display: flex;
    justify-content: center;
@@ -1255,7 +1264,6 @@ footer {
    align-items: center;
    gap: 15px;
    margin-bottom: 15px;
-   min-height: 90vh;
 }
 
 .benefit-icon {
@@ -2891,6 +2899,29 @@ footer {
 
 .railscript-comparison .comparison-row {
    grid-template-columns: 2fr 2fr 1.5fr 1.5fr 1.5fr;
+}
+
+.contact-form:hover {
+   transform: none;
+}
+
+.contact-form label {
+   font-weight: 600;
+}
+
+.contact-form .form-select,
+.contact-form .form-control {
+   height: 50px;
+}
+
+.contact-form textarea.form-control {
+   height: auto;
+}
+
+.contact-form .form-select:focus,
+.contact-form .form-control:focus {
+   outline: none;
+   box-shadow: none;
 }
 /* Mobile Responsive */
 @media (max-width: 768px) {
